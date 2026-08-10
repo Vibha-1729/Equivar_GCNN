@@ -21,7 +21,8 @@ Based on the research paper:
 * **Input:** 3D crystal structures in Extended XYZ (`extxyz`) format (`data/frames.xyz`).
 * **Pre-trained Weights:** PyTorch JIT model weights (`BM1.pt` or `BM2.pt`).
 * **Output:** $3 \times 3$ Born effective charge tensors per atom in CSV format (`data/evaluated.csv`):
-  $$\text{Columns: } [\text{atom\_id}, Z_{11}, Z_{12}, Z_{13}, Z_{21}, Z_{22}, Z_{23}, Z_{31}, Z_{32}, Z_{33}]$$
+  
+  `Columns: [ids, Z11, Z12, Z13, Z21, Z22, Z23, Z31, Z32, Z33]`
 
 ---
 
@@ -29,8 +30,8 @@ Based on the research paper:
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME/equivar_eval
+git clone https://github.com/Vibha-1729/Equivar_GCNN.git
+cd Equivar_GCNN/equivar_eval
 pip install -e .
 ```
 
