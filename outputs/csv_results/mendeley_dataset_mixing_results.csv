@@ -1,0 +1,3 @@
+Experiment,Train_Graphs,Test_Graphs,Epochs,Final_Train_MAE_e,Final_Test_Mendeley_MAE_e,Loss_Plot
+MP + 10% Mendeley Mixing,16962,21895,500,0.4476417956093884,0.39200481785762037,loss_curve_mix10_mendeley_transfer.png
+MP + 20% Mendeley Mixing,19395,19462,500,0.43226362173936517,0.38252672831148027,loss_curve_mix20_mendeley_transfer.png

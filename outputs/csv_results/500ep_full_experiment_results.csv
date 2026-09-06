@@ -1,0 +1,5 @@
+Experiment,Train_Graphs,Val_Graphs,Test_Graphs,Final_Train_MAE_e,Final_Val_MAE_e,Final_Test_MAE_e,Loss_Curve_Plot
+500-Epoch Master Combined Model (80/10/10 Split),31085,3886,3886,0.391,0.3895,0.3854,loss_curve_master_combined_500ep.png
+500-Epoch Mendeley-Only Model (80/10/10 Split),19461,2433,2433,0.38251449174543095,0.3779867392383972,0.3820806107695486,loss_curve_mendeley_500ep.png
+500-Epoch Materials Project-Only Model (80/10/10 Split),11624,1453,1453,0.4537507584606953,0.6051475979177523,0.5060246631103142,loss_curve_mp_500ep.png
+500-Epoch Cross-Transfer (Train Mendeley -> Test MP),24327,0,14530,0.38251449174543095,,6.817350733591947,loss_curve_transfer_mendeley_to_mp.png

@@ -1,0 +1,2 @@
+Experiment,Train_Dataset,Test_Dataset,Epochs,Final_Train_MP_MAE_e,Final_ZeroShot_Mendeley_MAE_e,Loss_Plot
+Cross-Dataset Zero-Shot (Train MP -> Test Mendeley),"Materials Project (14,530 structures)","Mendeley (24,327 structures)",500,0.45145788680087756,0.524283871550191,loss_curve_transfer_mp_to_mendeley.png

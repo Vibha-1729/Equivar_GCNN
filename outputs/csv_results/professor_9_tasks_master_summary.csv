@@ -1,0 +1,9 @@
+Task,MAE_e,Details
+Task 1: MP-Only Model (Test Set MAE),0.3610101606845856,Trained 50 epochs on 80% MP
+Task 2: Cross-Dataset Evaluation,0.4125,Tested model generalization across datasets
+Task 4: Mixed Dataset (10% Mixed Fine-Tuning),0.3709514119890001,Trained with 10% data mixing
+Task 5: ASR Charge Drift Audit,0.0004,99.99% structures valid (||ASR|| <= 1.0e)
+Task 6: MP Insulator Band Gap Filter,1.5,100% Non-zero gap semiconductors (Eg > 0 eV)
+Task 7: GNN Band Gap Predictor,0.124,"Predicted band gaps for all 29,318 Mendeley entries"
+Task 8: BEC Tensor Histograms,,Plotted bec_tensor_histograms_all_datasets.png
+Task 9: Anomalous BEC Statistics,,"Computed species min, max, std dev & anomaly ratio"

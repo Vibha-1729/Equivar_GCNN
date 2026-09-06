@@ -1,0 +1,5 @@
+Metric,Value
+Total Evaluated Structures,38857
+Valid Insulators/Semiconductors (Eg > 0 eV),38857
+Filtered Metallic Structures (Eg = 0 eV),0
+Insulator Percentage (%),100.00%
