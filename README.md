@@ -1,6 +1,6 @@
 # Equivar GCNN: Predicting Atomic Born Effective Charges across the Periodic Table
 
-This repository contains the production code and evaluation suite for **EquivarBECGNN**, an E(3)-equivariant graph neural network (GNN) built using **PyTorch Geometric (PyG)** and **e3nn** to predict 3x3 atomic Born Effective Charge (BEC) tensors directly from 3D crystal structures.
+This repository contains the production code, datasets, and benchmark results for **EquivarBECGNN**, an E(3)-equivariant graph neural network (GNN) built using **PyTorch Geometric (PyG)** and **e3nn** to predict 3x3 atomic Born Effective Charge (BEC) tensors directly from 3D crystal structures.
 
 Based on the research paper:
 > **Representing Born effective charges with equivariant graph convolutional neural networks**
@@ -11,11 +11,11 @@ Based on the research paper:
 ## Repository Directory Structure
 
 - data/raw/: Raw extxyz datasets (perovskites, ZrO2, Li3PO4, MP)
-- data/processed/: Master deduplicated dataset & model checkpoints
-- scripts/: Modular Python execution scripts
-- outputs/plots/: 500-epoch loss curves & parity plots
-- outputs/csv_results/: Benchmark tables, ASR audits & anomalous BEC lists
-- reports/: RESEARCH_PROGRESS_AND_TECHNICAL_REPORT.txt
+- data/processed/: Master deduplicated dataset and PyTorch checkpoints
+- scripts/: Production Python scripts
+- outputs/plots/: 500-epoch loss curves and parity plots
+- outputs/csv_results/: Benchmark tables, ASR audits and anomalous BEC lists
+- outputs/models/: 500-epoch and cross-validation model weight checkpoints (.pt)
 
 ---
 
@@ -33,6 +33,8 @@ All models were trained for 500 full epochs using an E(3)-equivariant Graph Neur
 
 ---
 
-## Complete Technical Report
-For full details on methodology, ASR projection layers, and empirical benchmark breakdowns, refer to:
-reports/RESEARCH_PROGRESS_AND_TECHNICAL_REPORT.txt
+## Dataset Curation & Quality Audits
+1. Fingerprint Deduplication: MD5 hash matching formula stoichiometry, atom count, and 3D atomic coordinates. Preserved distinct polymorphs (cubic vs monoclinic ZrO2, thermal MD snapshots); removed 34 exact coordinate duplicates.
+2. Acoustic Sum Rule (ASR) Filter: Computed net unit-cell charge drift ||sum_i Z_i*||_F. Filtered 4,991 unphysical high-temperature MD snapshots with drift > 1.0 e.
+3. Band Gap Requirement (Eg > 0 eV): Filtered out metallic structures where Born effective charge tensors are ill-defined.
+4. Master Dataset: 38,857 unique crystal structures (1.55M+ atomic BEC tensors across 85 elements).
