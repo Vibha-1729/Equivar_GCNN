@@ -1,3 +1,3 @@
 data_dir: "c:/Users/Vibha Narayan/OneDrive/Desktop/Coding/UGP/data"
 saved_model_path: "c:/Users/Vibha Narayan/OneDrive/Desktop/Coding/UGP/data/BM1.pt"
-ouput_path: "c:/Users/Vibha Narayan/OneDrive/Desktop/Coding/UGP/data/evaluated_ZrO2.csv"
+ouput_path: "c:/Users/Vibha Narayan/OneDrive/Desktop/Coding/UGP/outputs/evaluated_official_perovskites.csv"

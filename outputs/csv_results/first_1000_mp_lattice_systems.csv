@@ -1,0 +1,1001 @@
+Index,Material_ID,Formula,Atoms,Elements,Max_Diag_BEC_e
+1,aaaegquq,Sr2NCl,4,"Cl, N, Sr",3.496
+2,aaaegqvu,DyTlS2,4,"Dy, S, Tl",4.287
+3,aaaegrad,YAgTe2,4,"Ag, Te, Y",4.669
+4,aaaegrak,HBr,4,"Br, H",1.306
+5,aaaegraq,CsAu,2,"Au, Cs",1.208
+6,aaaegrar,RbLaO2,4,"La, O, Rb",4.516
+7,aaaegrbm,NaHoSe2,4,"Ho, Na, Se",4.404
+8,aaaegrbt,SnBr2,3,"Br, Sn",4.245
+9,aaaegrce,SrSe,2,"Se, Sr",2.388
+10,aaaegrct,ErCuSe2,4,"Cu, Er, Se",4.425
+11,aaaegrdq,YOF,6,"F, O, Y",3.903
+12,aaaegrem,BN,4,"B, N",2.708
+13,aaaegreq,GeTe,2,"Ge, Te",7.021
+14,aaaegrfh,TlInS2,4,"In, S, Tl",4.344
+15,aaaegrhg,LiSmS2,4,"Li, S, Sm",4.473
+16,aaaegrhz,RbF,2,"F, Rb",1.206
+17,aaaegrib,Li2Se,3,"Li, Se",1.878
+18,aaaegrie,InP,4,"In, P",2.595
+19,aaaegriv,NaHF2,4,"F, H, Na",1.962
+20,aaaegrjj,Sr2BrN,4,"Br, N, Sr",3.505
+21,aaaegrjk,SnSeS,3,"S, Se, Sn",4.971
+22,aaaegrkw,Ho2CF2,5,"C, F, Ho",4.931
+23,aaaegrla,H2,2,H,0.0
+24,aaaegrlv,BeS,2,"Be, S",1.592
+25,aaaegrlz,Th2N2O,5,"N, O, Th",5.529
+26,aaaegrmb,ZrInAu,3,"Au, In, Zr",3.052
+27,aaaegrme,Ca(MgAs)2,5,"As, Ca, Mg",3.004
+28,aaaegrmh,CuCl,2,"Cl, Cu",1.079
+29,aaaegrno,ScTeRh,3,"Rh, Sc, Te",3.558
+30,aaaegrua,ZnS,2,"S, Zn",1.964
+31,aaaegrvw,WS2,3,"S, W",0.607
+32,aaaegrwa,NaF,2,"F, Na",1.007
+33,aaaegrys,ZrCoBi,3,"Bi, Co, Zr",4.938
+34,aaaegryv,KZnSb,3,"K, Sb, Zn",3.254
+35,aaaegrzi,ZrCl2,3,"Cl, Zr",1.053
+36,aaaegrzy,Rb2S,3,"Rb, S",1.991
+37,aaaegsbx,Ba2PCl,4,"Ba, Cl, P",3.794
+38,aaaegsbz,Mg3SbN,5,"Mg, N, Sb",3.61
+39,aaaegsci,Ca3PN,5,"Ca, N, P",4.191
+40,aaaegscj,Th2SN2,5,"N, S, Th",5.292
+41,aaaegsdu,K2RbSb,4,"K, Rb, Sb",2.924
+42,aaaegsez,Ca2Ge,3,"Ca, Ge",3.623
+43,aaaegsfg,Be2C,3,"Be, C",3.056
+44,aaaegsgt,KBr,2,"Br, K",1.124
+45,aaaegshx,NdTlTe2,4,"Nd, Te, Tl",4.517
+46,aaaegsib,LaAgO2,4,"Ag, La, O",4.609
+47,aaaegsij,Ca(MgBi)2,5,"Bi, Ca, Mg",3.099
+48,aaaegsiv,Li2S,3,"Li, S",1.864
+49,aaaegsjb,BaLiF3,5,"Ba, F, Li",2.744
+50,aaaegskc,MgS,2,"Mg, S",1.881
+51,aaaegskx,BaZrO3,5,"Ba, O, Zr",6.218
+52,aaaegsll,CdTe,2,"Cd, Te",2.184
+53,aaaegsmb,ZrSbRh,3,"Rh, Sb, Zr",4.777
+54,aaaegsmi,NaBr,2,"Br, Na",1.124
+55,aaaegsny,NaErSe2,4,"Er, Na, Se",4.371
+56,aaaegsos,BaLiAs,3,"As, Ba, Li",3.991
+57,aaaegsph,Cs2PtC2,5,"C, Cs, Pt",3.523
+58,aaaegspk,CaO2,3,"Ca, O",2.692
+59,aaaegspq,MgS,2,"Mg, S",2.293
+60,aaaegsqf,Ba(MgSb)2,5,"Ba, Mg, Sb",3.32
+61,aaaegsrd,DySbPt,3,"Dy, Pt, Sb",2.022
+62,aaaegssj,MgO,2,"Mg, O",1.951
+63,aaaegssr,ScAgSe2,4,"Ag, Sc, Se",4.72
+64,aaaegstf,VFeSb,3,"Fe, Sb, V",8.063
+65,aaaegsyj,MgCdTe2,4,"Cd, Mg, Te",2.188
+66,aaaegszb,SnS2,3,"S, Sn",4.882
+67,aaaegszt,Ba2SbAu,4,"Au, Ba, Sb",4.623
+68,aaaegszv,LuAgTe2,4,"Ag, Lu, Te",4.702
+69,aaaegtau,RbI,2,"I, Rb",1.156
+70,aaaegtcl,ZrSnPt,3,"Pt, Sn, Zr",3.894
+71,aaaegtde,CdCl2,3,"Cd, Cl",2.628
+72,aaaegtdg,MgSe,2,"Mg, Se",1.884
+73,aaaegtdy,CsCl,2,"Cl, Cs",1.337
+74,aaaegtev,Ba(AgS)2,5,"Ag, Ba, S",3.343
+75,aaaegtht,ScCuO2,4,"Cu, O, Sc",4.393
+76,aaaegtid,LuCuSe2,4,"Cu, Lu, Se",4.373
+77,aaaegtiq,NaNdSe2,4,"Na, Nd, Se",4.64
+78,aaaegtje,Xe,2,Xe,0.0
+79,aaaegtlr,LiMgBi,3,"Bi, Li, Mg",2.846
+80,aaaegtls,CsI,2,"Cs, I",1.218
+81,aaaegtmw,ThSnPt,3,"Pt, Sn, Th",2.428
+82,aaaegtpl,LiMgSb,3,"Li, Mg, Sb",2.797
+83,aaaegtqb,LiTbSe2,4,"Li, Se, Tb",4.431
+84,aaaegtqi,KDyO2,4,"Dy, K, O",4.244
+85,aaaegtqr,KMgP,6,"K, Mg, P",2.936
+86,aaaegtqs,CsSmS2,4,"Cs, S, Sm",4.52
+87,aaaegtqv,MoS2,6,"Mo, S",1.094
+88,aaaegtqw,NaLaS2,4,"La, Na, S",4.447
+89,aaaegtrf,N2,4,N,0.0
+90,aaaegtrs,RbTmO2,4,"O, Rb, Tm",4.152
+91,aaaegttm,CaS,2,"Ca, S",2.354
+92,aaaegttv,Rb2PtC2,5,"C, Pt, Rb",3.871
+93,aaaegtuh,NaLaSe2,4,"La, Na, Se",4.453
+94,aaaegtvj,AlGaP2,4,"Al, Ga, P",2.29
+95,aaaegtwe,SrBr2,6,"Br, Sr",2.626
+96,aaaegtwm,KTlO2,4,"K, O, Tl",3.813
+97,aaaeguds,CaI2,3,"Ca, I",2.447
+98,aaaegufy,Ca2H3Br,6,"Br, Ca, H",2.34
+99,aaaegugk,AcGaO3,5,"Ac, Ga, O",4.344
+100,aaaeguha,TePb,2,"Pb, Te",5.868
+101,aaaegujj,NaTaN2,4,"N, Na, Ta",8.857
+102,aaaegujr,RbAu,2,"Au, Rb",1.168
+103,aaaegukk,NaSmTe2,4,"Na, Sm, Te",4.767
+104,aaaegukv,Na2Te,3,"Na, Te",2.004
+105,aaaegulh,Kr,3,Kr,0.0
+106,aaaegulp,RbNdS2,4,"Nd, Rb, S",4.581
+107,aaaegult,PtO2,3,"O, Pt",4.116
+108,aaaegunp,InP,2,"In, P",2.533
+109,aaaegunr,RbYS2,4,"Rb, S, Y",4.261
+110,aaaegurb,CsCdCl3,5,"Cd, Cl, Cs",2.72
+111,aaaegusg,PbS,2,"Pb, S",4.38
+112,aaaeguso,PrTlSe2,4,"Pr, Se, Tl",4.47
+113,aaaegutt,CsCl,2,"Cl, Cs",1.255
+114,aaaeguvy,RbCaH3,5,"Ca, H, Rb",1.757
+115,aaaeguwb,K2Pt,3,"K, Pt",1.9
+116,aaaeguwn,SnSe2,3,"Se, Sn",5.122
+117,aaaeguwv,K2Te2Pt,5,"K, Pt, Te",1.82
+118,aaaeguxu,Si,2,Si,0.0
+119,aaaeguyl,PbI2,3,"I, Pb",3.988
+120,aaaeguyr,Ba(CdP)2,5,"Ba, Cd, P",3.965
+121,aaaeguyw,KNa2Sb,4,"K, Na, Sb",3.069
+122,aaaeguzj,LuTlSe2,4,"Lu, Se, Tl",4.244
+123,aaaegvac,RbNdSe2,4,"Nd, Rb, Se",4.652
+124,aaaegvgu,ZrSnPd,3,"Pd, Sn, Zr",3.476
+125,aaaegvgw,ZnO,2,"O, Zn",2.141
+126,aaaegvhj,K2Te,3,"K, Te",1.91
+127,aaaegvhv,Xe,4,Xe,0.0
+128,aaaegvit,Sr3PN,5,"N, P, Sr",4.525
+129,aaaegviu,KCl,2,"Cl, K",1.125
+130,aaaegvkb,NbSbRu,3,"Nb, Ru, Sb",7.489
+131,aaaegvkr,XeF2,3,"F, Xe",3.917
+132,aaaegvlf,RbErS2,4,"Er, Rb, S",4.325
+133,aaaegvmk,Na2Se,3,"Na, Se",1.935
+134,aaaegvna,BN,4,"B, N",2.704
+135,aaaegvuj,ScSbPt,3,"Pt, Sb, Sc",2.83
+136,aaaegvwg,KI,8,"I, K",1.184
+137,aaaegvwh,ZrNiSn,3,"Ni, Sn, Zr",3.616
+138,aaaegvwk,Kr,1,Kr,0.0
+139,aaaegvwo,KTbS2,4,"K, S, Tb",4.418
+140,aaaegvww,TiSnPd,3,"Pd, Sn, Ti",3.755
+141,aaaegvxh,BeO,2,"Be, O",1.797
+142,aaaegvxu,ZnTe,6,"Te, Zn",1.972
+143,aaaegvye,TbSbPt,3,"Pt, Sb, Tb",1.989
+144,aaaegvzz,HgF,4,"F, Hg",2.494
+145,aaaegwab,InI,4,"I, In",2.66
+146,aaaegwae,Ce2SeN2,5,"Ce, N, Se",5.683
+147,aaaegwal,RbH,2,"H, Rb",1.033
+148,aaaegwam,SrI2,12,"I, Sr",2.451
+149,aaaegwbl,NaNbN2,4,"N, Na, Nb",9.183
+150,aaaegwce,RbHoS2,4,"Ho, Rb, S",4.356
+151,aaaegwcq,CdSe,2,"Cd, Se",2.244
+152,aaaegwda,NbCoSn,3,"Co, Nb, Sn",5.848
+153,aaaegwdd,Ge2O3,5,"Ge, O",4.535
+154,aaaegwdi,Ar,2,Ar,0.0
+155,aaaegwds,GeSe,2,"Ge, Se",7.36
+156,aaaegwed,K2S,3,"K, S",1.936
+157,aaaegwef,NaH,2,"H, Na",0.959
+158,aaaegwfe,ErHSe,3,"Er, H, Se",3.139
+159,aaaegwfn,PbF2,3,"F, Pb",3.214
+160,aaaegwlu,ScAgS2,4,"Ag, S, Sc",4.508
+161,aaaegwnr,TbSF,6,"F, S, Tb",4.01
+162,aaaegwnz,CsGeBr3,5,"Br, Cs, Ge",4.635
+163,aaaegwpa,LiMgAs,3,"As, Li, Mg",2.68
+164,aaaegwpz,MgI2,3,"I, Mg",2.468
+165,aaaegwqh,CsF,2,"Cs, F",1.328
+166,aaaegwqo,CaSe,2,"Ca, Se",2.356
+167,aaaegwre,KNaCl2,4,"Cl, K, Na",1.183
+168,aaaegwsp,MgCdTe2,4,"Cd, Mg, Te",2.179
+169,aaaegwtj,KH,2,"H, K",0.978
+170,aaaegwtm,KZnAs,3,"As, K, Zn",3.292
+171,aaaegwty,InCl,4,"Cl, In",2.489
+172,aaaegwur,CoAuO2,4,"Au, Co, O",2.891
+173,aaaegwvi,NaTbS2,4,"Na, S, Tb",4.403
+174,aaaegwvm,NaI,2,"I, Na",1.183
+175,aaaegwvo,AgBrO3,5,"Ag, Br, O",3.802
+176,aaaegwwy,Li3Bi,4,"Bi, Li",2.897
+177,aaaegwye,TlI,2,"I, Tl",2.065
+178,aaaegwzp,MgSe,2,"Mg, Se",2.415
+179,aaaegxay,LaAuO2,4,"Au, La, O",4.685
+180,aaaegxbg,HoNiSb,3,"Ho, Ni, Sb",2.335
+181,aaaegxca,KI,2,"I, K",1.135
+182,aaaegxci,LiYS2,4,"Li, S, Y",4.225
+183,aaaegxck,GaP,2,"Ga, P",2.126
+184,aaaegxco,LiCuO2,4,"Cu, Li, O",4.094
+185,aaaegxcs,Zr2SeN2,5,"N, Se, Zr",5.31
+186,aaaegxde,LuTlS2,4,"Lu, S, Tl",4.186
+187,aaaegxds,SrTe,2,"Sr, Te",2.397
+188,aaaegxee,ScCoTe,3,"Co, Sc, Te",4.131
+189,aaaegxej,TiFeTe,3,"Fe, Te, Ti",6.818
+190,aaaegxfi,SrF2,3,"F, Sr",2.416
+191,aaaegxfj,H2,2,H,0.0
+192,aaaegxft,ZrAsIr,3,"As, Ir, Zr",4.544
+193,aaaegxhb,CsDyS2,4,"Cs, Dy, S",4.391
+194,aaaegxjn,SmTlSe2,4,"Se, Sm, Tl",4.424
+195,aaaegxki,CaO,2,"Ca, O",2.361
+196,aaaegxps,HgF2,3,"F, Hg",2.697
+197,aaaegxqk,BeTe,2,"Be, Te",1.3
+198,aaaegxrq,TlBr,2,"Br, Tl",1.934
+199,aaaegxrt,LiMgP,3,"Li, Mg, P",2.666
+200,aaaegxsa,Cs2HgO2,5,"Cs, Hg, O",2.729
+201,aaaegxss,RbYO2,4,"O, Rb, Y",4.15
+202,aaaegxtc,SnSe,2,"Se, Sn",5.219
+203,aaaegxxl,NaLuS2,4,"Lu, Na, S",4.217
+204,aaaegxxp,H4C,5,"C, H",0.12
+205,aaaegxzc,CsK2Sb,4,"Cs, K, Sb",3.104
+206,aaaegyai,RbPrSe2,4,"Pr, Rb, Se",4.673
+207,aaaegybb,TmTlSe2,4,"Se, Tl, Tm",4.28
+208,aaaegybh,S,6,S,0.65
+209,aaaegyce,RbErSe2,4,"Er, Rb, Se",4.389
+210,aaaegyck,Si,46,Si,0.321
+211,aaaegycl,Si,23,Si,0.59
+212,aaaegycm,Cl2,16,Cl,0.056
+213,aaaegydi,Sn,46,Sn,0.702
+214,aaaegygp,N2,8,N,0.0
+215,aaaegygq,B,28,B,2.054
+216,aaaegygy,Si,40,Si,0.377
+217,aaaegyhg,Si,12,Si,0.9
+218,aaaegyio,Al2O3,10,"Al, O",2.959
+219,aaaegyjg,LiCl,4,"Cl, Li",1.028
+220,aaaegyjh,GaAs,2,"As, Ga",2.104
+221,aaaegyjs,AlN,4,"Al, N",2.677
+222,aaaegyjx,CeO2,3,"Ce, O",5.761
+223,aaaegyma,Li2O,3,"Li, O",1.791
+224,aaaegyug,K2PtS2,5,"K, Pt, S",2.39
+225,aaaegyuw,KLuS2,4,"K, Lu, S",4.216
+226,aaaegyvr,SrO,2,"O, Sr",2.459
+227,aaaegywe,La2SO2,5,"La, O, S",4.147
+228,aaaegyxn,Kr,2,Kr,0.0
+229,aaaegyzf,Cs2Se,3,"Cs, Se",2.107
+230,aaaegyzp,KErTe2,4,"Er, K, Te",4.532
+231,aaaegyzu,Ba2AsAu,4,"As, Au, Ba",4.906
+232,aaaegyzz,MgTlF3,5,"F, Mg, Tl",2.173
+233,aaaegzbr,ZnSe,2,"Se, Zn",2.026
+234,aaaegzbt,LaBiPd,3,"Bi, La, Pd",2.277
+235,aaaegzcr,HfSnPd,3,"Hf, Pd, Sn",3.57
+236,aaaegzcw,InSe,4,"In, Se",2.397
+237,aaaegzdk,BN,2,"B, N",2.702
+238,aaaegzfw,YHSe,3,"H, Se, Y",3.157
+239,aaaegzgd,Xe,3,Xe,0.0
+240,aaaegzgo,TbHSe,3,"H, Se, Tb",3.12
+241,aaaegzhc,LiMgN,3,"Li, Mg, N",2.474
+242,aaaegzhk,CdS,2,"Cd, S",2.179
+243,aaaegzht,SrCl2,3,"Cl, Sr",2.496
+244,aaaegzin,MgBr2,3,"Br, Mg",2.324
+245,aaaegzir,BeSe,2,"Be, Se",1.528
+246,aaaegzka,KF,2,"F, K",1.141
+247,aaaegznz,LiErSe2,4,"Er, Li, Se",4.324
+248,aaaegzob,CsBr,2,"Br, Cs",1.236
+249,aaaegzpg,Zn2SeS,4,"S, Se, Zn",2.172
+250,aaaegzqa,CdIBr,6,"Br, Cd, I",2.841
+251,aaaegzqr,CdBr2,3,"Br, Cd",2.724
+252,aaaegzre,Cl2,4,Cl,0.0
+253,aaaegzrj,GaP,4,"Ga, P",2.181
+254,aaaegzsj,KBiS2,4,"Bi, K, S",6.046
+255,aaaegzsy,BaTiO3,5,"Ba, O, Ti",7.105
+256,aaaegztf,TaSbRu,3,"Ru, Sb, Ta",7.221
+257,aaaegztk,NaScS2,4,"Na, S, Sc",4.471
+258,aaaehaag,Zr2SN2,5,"N, S, Zr",5.385
+259,aaaehacb,BaO,4,"Ba, O",2.628
+260,aaaehadx,SmTlS2,4,"S, Sm, Tl",4.383
+261,aaaehaih,Na3BrO,5,"Br, Na, O",1.885
+262,aaaehajr,Hf2SeN2,5,"Hf, N, Se",5.322
+263,aaaehalt,Pb2SeS,4,"Pb, S, Se",4.925
+264,aaaehanh,Na3ClO,5,"Cl, Na, O",1.777
+265,aaaehaqp,KTaO3,5,"K, O, Ta",8.783
+266,aaaehari,KNdTe2,4,"K, Nd, Te",4.826
+267,aaaehava,KNbO3,5,"K, Nb, O",9.683
+268,aaaehavn,LiHoSe2,4,"Ho, Li, Se",4.358
+269,aaaehawj,AcTlTe2,4,"Ac, Te, Tl",5.914
+270,aaaehaxc,Li3Sb,4,"Li, Sb",2.803
+271,aaaehaxd,NaErS2,4,"Er, Na, S",4.305
+272,aaaehaxr,NaInSe2,4,"In, Na, Se",4.14
+273,aaaehbdr,KNbO3,5,"K, Nb, O",8.475
+274,aaaehbfw,CsPbCl3,5,"Cl, Cs, Pb",3.965
+275,aaaehbgj,Sr(MgSb)2,5,"Mg, Sb, Sr",3.083
+276,aaaehbhh,NaSbSe2,4,"Na, Sb, Se",6.676
+277,aaaehbiz,GaAgO2,4,"Ag, Ga, O",3.425
+278,aaaehbjo,ZrZnN2,4,"N, Zn, Zr",6.332
+279,aaaehblj,HoTlS2,4,"Ho, S, Tl",4.265
+280,aaaehblt,RbCdF3,5,"Cd, F, Rb",2.348
+281,aaaehboq,KNbO3,5,"K, Nb, O",9.007
+282,aaaehbpe,LiC,4,"C, Li",0.952
+283,aaaehbrx,HoCuSe2,4,"Cu, Ho, Se",4.445
+284,aaaehbsq,RbDyS2,4,"Dy, Rb, S",4.388
+285,aaaehbtd,TmF3,4,"F, Tm",4.079
+286,aaaehbwo,SmAgO2,4,"Ag, O, Sm",4.483
+287,aaaehbxu,TlZnF3,5,"F, Tl, Zn",2.477
+288,aaaehcbc,TbTlSe2,4,"Se, Tb, Tl",4.356
+289,aaaehcbr,Ca2NCl,4,"Ca, Cl, N",3.424
+290,aaaehchv,LaN,4,"La, N",3.546
+291,aaaehcix,RbCaCl3,5,"Ca, Cl, Rb",2.415
+292,aaaehckd,Li2CuSb,4,"Cu, Li, Sb",2.937
+293,aaaehckn,Na2BrCl,4,"Br, Cl, Na",1.17
+294,aaaehckr,BaSnO3,5,"Ba, O, Sn",4.382
+295,aaaehcmd,CsPbBr3,5,"Br, Cs, Pb",4.322
+296,aaaehcnl,NaSmS2,4,"Na, S, Sm",4.505
+297,aaaehcnm,Ca2AsAu,4,"As, Au, Ca",5.612
+298,aaaehcob,GaCuO2,4,"Cu, Ga, O",3.394
+299,aaaehcpk,NaLuO2,4,"Lu, Na, O",4.055
+300,aaaehcpm,Rb3BrO,5,"Br, O, Rb",2.417
+301,aaaehcqo,HCl,4,"Cl, H",1.131
+302,aaaehcrk,CuI,4,"Cu, I",0.997
+303,aaaehcrl,CaZrN2,4,"Ca, N, Zr",6.773
+304,aaaehcrm,TmCuSe2,4,"Cu, Se, Tm",4.411
+305,aaaehcrv,ZnS,4,"S, Zn",2.008
+306,aaaehcsl,Nd2TeS2,5,"Nd, S, Te",4.194
+307,aaaehctc,PrTlTe2,4,"Pr, Te, Tl",4.521
+308,aaaehctg,LiHoS2,4,"Ho, Li, S",4.301
+309,aaaehctz,BN,4,"B, N",2.711
+310,aaaehcwc,LiI,4,"I, Li",1.043
+311,aaaehcww,Ho2SO2,5,"Ho, O, S",3.857
+312,aaaehcxi,Cs3Sb,4,"Cs, Sb",3.216
+313,aaaehcxl,Sr2BiAu,4,"Au, Bi, Sr",4.555
+314,aaaehcxm,Ba2NF,4,"Ba, F, N",4.083
+315,aaaehcyx,Sr2HN,4,"H, N, Sr",3.635
+316,aaaehdaa,NaTbSe2,4,"Na, Se, Tb",4.474
+317,aaaehdbt,RbTbSe2,4,"Rb, Se, Tb",4.488
+318,aaaehdcb,NaHoS2,4,"Ho, Na, S",4.337
+319,aaaehdeq,KRbCl2,4,"Cl, K, Rb",1.174
+320,aaaehdlp,Li2TlSb,4,"Li, Sb, Tl",6.517
+321,aaaehdly,LiAcTe2,4,"Ac, Li, Te",4.658
+322,aaaehdmf,Li3BrO,5,"Br, Li, O",2.175
+323,aaaehdmu,LiDySe2,4,"Dy, Li, Se",4.394
+324,aaaehdnq,CsBr2F,4,"Br, Cs, F",5.228
+325,aaaehdnu,Ca(ZnN)2,5,"Ca, N, Zn",3.199
+326,aaaehdok,MgTe,4,"Mg, Te",1.971
+327,aaaehdpn,RbHoSe2,4,"Ho, Rb, Se",4.421
+328,aaaehdpq,CuBr,4,"Br, Cu",1.08
+329,aaaehdqu,NaInS2,4,"In, Na, S",3.948
+330,aaaehdrj,TbTlS2,4,"S, Tb, Tl",4.309
+331,aaaehdrs,KDyS2,4,"Dy, K, S",4.384
+332,aaaehdvm,GaAs,4,"As, Ga",2.164
+333,aaaehdws,LuAgO2,4,"Ag, Lu, O",4.156
+334,aaaehdxr,Nd2SeO2,5,"Nd, O, Se",4.168
+335,aaaehebr,CaMg2N2,5,"Ca, Mg, N",2.966
+336,aaaeheev,ZnCdSe2,4,"Cd, Se, Zn",2.396
+337,aaaeheiy,ZnSnP2,4,"P, Sn, Zn",2.633
+338,aaaehejl,SiC,4,"C, Si",2.866
+339,aaaehejr,Er2SeO2,5,"Er, O, Se",4.063
+340,aaaeheke,Ba2BiAu,4,"Au, Ba, Bi",4.529
+341,aaaeheko,AlGaAs2,4,"Al, As, Ga",2.242
+342,aaaehekz,NaInO2,4,"In, Na, O",3.412
+343,aaaeheqq,HfZnN2,4,"Hf, N, Zn",6.128
+344,aaaehett,Pr2SeO2,5,"O, Pr, Se",4.178
+345,aaaehetw,Ca3SbP,5,"Ca, P, Sb",4.047
+346,aaaeheuj,Ca(BeAs)2,5,"As, Be, Ca",3.422
+347,aaaehevl,HgBr,4,"Br, Hg",2.542
+348,aaaehevo,RbErO2,4,"Er, O, Rb",4.181
+349,aaaehewm,Ca3SbN,5,"Ca, N, Sb",4.196
+350,aaaehewn,TiFe2Si,4,"Fe, Si, Ti",6.09
+351,aaaehewq,Kr,4,Kr,0.0
+352,aaaehewt,AlInSb2,4,"Al, In, Sb",2.302
+353,aaaeheww,NaLi2Sb,4,"Li, Na, Sb",2.847
+354,aaaehezz,TlBrO3,5,"Br, O, Tl",3.711
+355,aaaehfak,KNbO3,5,"K, Nb, O",9.174
+356,aaaehffj,AlGaN2,4,"Al, Ga, N",2.678
+357,aaaehfip,K3IO,5,"I, K, O",2.292
+358,aaaehfje,CsPbF3,5,"Cs, F, Pb",3.284
+359,aaaehfkw,RbNa2Sb,4,"Na, Rb, Sb",3.186
+360,aaaehflb,AlSb,4,"Al, Sb",1.895
+361,aaaehflr,Hf2SN2,5,"Hf, N, S",5.09
+362,aaaehfls,AlAs,4,"Al, As",2.252
+363,aaaehflw,AlP,4,"Al, P",2.348
+364,aaaehfnu,CaHfN2,4,"Ca, Hf, N",6.408
+365,aaaehfoc,Mg3AsN,5,"As, Mg, N",3.559
+366,aaaehfok,HfS2,3,"Hf, S",6.802
+367,aaaehfvp,RbBrO3,5,"Br, O, Rb",3.212
+368,aaaehfvw,K3AuO,5,"Au, K, O",2.515
+369,aaaehfyr,RbSmSe2,4,"Rb, Se, Sm",4.593
+370,aaaehfza,LiErS2,4,"Er, Li, S",4.268
+371,aaaehfzq,CsRbAu2,4,"Au, Cs, Rb",1.263
+372,aaaehgad,RbBiS2,4,"Bi, Rb, S",6.098
+373,aaaehgbg,LiF,4,"F, Li",0.994
+374,aaaehgdq,LiScS2,4,"Li, S, Sc",4.432
+375,aaaehgei,BP,4,"B, P",0.566
+376,aaaehggr,K2BrCl,4,"Br, Cl, K",1.171
+377,aaaehgii,AgI,4,"Ag, I",1.206
+378,aaaehgji,Rb2O2,4,"O, Rb",1.237
+379,aaaehgju,MgS,4,"Mg, S",1.948
+380,aaaehglu,K2PdO2,5,"K, O, Pd",3.796
+381,aaaehgmv,Li2TlBi,4,"Bi, Li, Tl",7.129
+382,aaaehgpv,CaPbSe2,4,"Ca, Pb, Se",4.839
+383,aaaehgqc,KHoS2,4,"Ho, K, S",4.351
+384,aaaehgql,CaCdO2,4,"Ca, Cd, O",2.618
+385,aaaehgqx,ScCuS2,4,"Cu, S, Sc",4.628
+386,aaaehgsk,RbPrO2,4,"O, Pr, Rb",4.503
+387,aaaehgso,Pr2SO2,5,"O, Pr, S",3.977
+388,aaaehgsx,CsHF2,4,"Cs, F, H",2.29
+389,aaaehgtq,Ho2SeO2,5,"Ho, O, Se",4.078
+390,aaaehgtt,NaPrSe2,4,"Na, Pr, Se",4.66
+391,aaaehgzu,CsSrF3,5,"Cs, F, Sr",2.455
+392,aaaehhas,CdTe,4,"Cd, Te",2.212
+393,aaaehhgo,GaN,4,"Ga, N",2.739
+394,aaaehhhf,NaTmO2,4,"Na, O, Tm",4.122
+395,aaaehhih,K3ClO,5,"Cl, K, O",2.196
+396,aaaehhjy,AcAlO3,5,"Ac, Al, O",4.364
+397,aaaehhld,KZnF3,5,"F, K, Zn",2.299
+398,aaaehhmg,PmF3,4,"F, Pm",4.215
+399,aaaehhnd,Er2SO2,5,"Er, O, S",3.844
+400,aaaehhny,LiHF2,4,"F, H, Li",1.993
+401,aaaehhqq,NaYS2,4,"Na, S, Y",4.24
+402,aaaehhsa,LiPaO3,5,"Li, O, Pa",6.492
+403,aaaehhsk,TePb2Se,4,"Pb, Se, Te",5.805
+404,aaaehhug,AcF3,4,"Ac, F",4.285
+405,aaaehhvn,DyCuSe2,4,"Cu, Dy, Se",4.465
+406,aaaehied,NaDyO2,4,"Dy, Na, O",4.218
+407,aaaehiek,KYTe2,4,"K, Te, Y",4.452
+408,aaaehifm,NaSmSe2,4,"Na, Se, Sm",4.581
+409,aaaehihx,MgZnS2,4,"Mg, S, Zn",2.194
+410,aaaehiid,RbIO3,5,"I, O, Rb",4.432
+411,aaaehilu,ScF3,4,"F, Sc",3.99
+412,aaaehinq,RbTlO2,4,"O, Rb, Tl",3.869
+413,aaaehins,CdS,4,"Cd, S",2.209
+414,aaaehiof,Cd(HO)2,5,"Cd, H, O",2.505
+415,aaaehiom,LiAlO2,4,"Al, Li, O",2.98
+416,aaaehioy,LiBr,4,"Br, Li",1.035
+417,aaaehipw,KMgF3,5,"F, K, Mg",1.978
+418,aaaehirs,CaHgO2,4,"Ca, Hg, O",2.881
+419,aaaehisl,Sr(CdP)2,5,"Cd, P, Sr",3.351
+420,aaaehite,ScAgO2,4,"Ag, O, Sc",4.379
+421,aaaehivg,CsCdF3,5,"Cd, Cs, F",2.431
+422,aaaehixk,CsRb2Sb,4,"Cs, Rb, Sb",3.125
+423,aaaehiyi,KMgH3,5,"H, K, Mg",1.849
+424,aaaehize,DyAgTe2,4,"Ag, Dy, Te",4.844
+425,aaaehizr,AlGaSb2,4,"Al, Ga, Sb",1.966
+426,aaaehjby,Ba(MgP)2,5,"Ba, Mg, P",3.321
+427,aaaehjck,Ba2BrN,4,"Ba, Br, N",3.994
+428,aaaehjlc,CuCl,4,"Cl, Cu",1.087
+429,aaaehjle,RbSmTe2,4,"Rb, Sm, Te",4.755
+430,aaaehjmp,AcF3,4,"Ac, F",4.288
+431,aaaehjmq,Ga2AsP,4,"As, Ga, P",2.271
+432,aaaehjns,N2,4,N,0.0
+433,aaaehjov,ScCuSe2,4,"Cu, Sc, Se",4.794
+434,aaaehjpd,Ca(CdP)2,5,"Ca, Cd, P",3.326
+435,aaaehjqb,Sr(MgBi)2,5,"Bi, Mg, Sr",3.121
+436,aaaehjqh,NaNO3,5,"N, Na, O",2.802
+437,aaaehjqt,KYS2,4,"K, S, Y",4.275
+438,aaaehjrf,LiYSe2,4,"Li, Se, Y",4.272
+439,aaaehjrh,KTmO2,4,"K, O, Tm",4.142
+440,aaaehjrp,NaBiSe2,4,"Bi, Na, Se",6.128
+441,aaaehjxg,CsHgF3,5,"Cs, F, Hg",2.688
+442,aaaehjyv,BeO,4,"Be, O",1.848
+443,aaaehjzd,NaDyS2,4,"Dy, Na, S",4.369
+444,aaaehkax,Tm2SO2,5,"O, S, Tm",3.833
+445,aaaehket,PtS,4,"Pt, S",1.916
+446,aaaehkgf,TmTlS2,4,"S, Tl, Tm",4.225
+447,aaaehkgm,NaRhO2,4,"Na, O, Rh",3.203
+448,aaaehkgy,K2PdSe2,5,"K, Pd, Se",2.572
+449,aaaehkmi,Cs2HgTe,4,"Cs, Hg, Te",2.811
+450,aaaehknh,KNdS2,4,"K, Nd, S",4.579
+451,aaaehkpj,NaLi2Bi,4,"Bi, Li, Na",2.94
+452,aaaehkpm,Ba2NCl,4,"Ba, Cl, N",3.984
+453,aaaehkqs,Sr2SeS,4,"S, Se, Sr",2.486
+454,aaaehkrg,CsCaF3,5,"Ca, Cs, F",2.434
+455,aaaehkuq,RbTmS2,4,"Rb, S, Tm",4.3
+456,aaaehkvk,YTlSe2,4,"Se, Tl, Y",4.197
+457,aaaehkvp,Nd2SO2,5,"Nd, O, S",3.963
+458,aaaehkwi,NaCoO2,4,"Co, Na, O",2.838
+459,aaaehkwt,AcGaTe2,4,"Ac, Ga, Te",6.108
+460,aaaehkxs,KPrO2,4,"K, O, Pr",4.496
+461,aaaehkzh,ZnO,4,"O, Zn",2.163
+462,aaaehkzv,CsRb2Bi,4,"Bi, Cs, Rb",3.051
+463,aaaehlaf,BaLiH3,5,"Ba, H, Li",2.37
+464,aaaehlat,ZnCdS2,4,"Cd, S, Zn",2.295
+465,aaaehlbo,TmF3,4,"F, Tm",4.107
+466,aaaehlcm,BN,4,"B, N",2.715
+467,aaaehldn,Cs3Bi,4,"Bi, Cs",3.103
+468,aaaehldp,Ca3BiN,5,"Bi, Ca, N",4.327
+469,aaaehldz,NaNdS2,4,"Na, Nd, S",4.563
+470,aaaehlef,NaTlO2,4,"Na, O, Tl",3.725
+471,aaaehlgt,NaErO2,4,"Er, Na, O",4.151
+472,aaaehlil,TmAgTe2,4,"Ag, Te, Tm",4.606
+473,aaaehlim,Zn2SeS,4,"S, Se, Zn",2.125
+474,aaaehlkg,YTlS2,4,"S, Tl, Y",4.163
+475,aaaehlqx,Ba(MgAs)2,5,"As, Ba, Mg",3.304
+476,aaaehlqy,SmPaO4,6,"O, Pa, Sm",7.34
+477,aaaehlsi,NaYF4,6,"F, Na, Y",3.936
+478,aaaehlss,PrHSe,6,"H, Pr, Se",3.595
+479,aaaehlua,AlF3,4,"Al, F",2.959
+480,aaaehlut,LuHSe,3,"H, Lu, Se",3.169
+481,aaaehlvc,CdI2,3,"Cd, I",2.94
+482,aaaehmuo,CdF2,3,"Cd, F",2.436
+483,aaaehmuv,RbNdO2,4,"Nd, O, Rb",4.472
+484,aaaehmve,K2PdC2,5,"C, K, Pd",2.7
+485,aaaehmvg,BiTeI,3,"Bi, I, Te",5.463
+486,aaaehmze,Sm2SO2,5,"O, S, Sm",3.933
+487,aaaehmzg,RbBr,2,"Br, Rb",1.156
+488,aaaehnyq,SrPbS2,4,"Pb, S, Sr",3.808
+489,aaaehodb,Ca(CdAs)2,5,"As, Ca, Cd",3.471
+490,aaaehodh,CsGeBr3,5,"Br, Cs, Ge",5.717
+491,aaaehodv,KSmO2,4,"K, O, Sm",4.39
+492,aaaehpdm,B,12,B,0.646
+493,aaaehpep,S,24,S,0.245
+494,aaaeiiys,Sc2O3,10,"O, Sc",5.664
+495,aaaeiizp,Bi2O3,5,"Bi, O",4.982
+496,aaaeijab,Al2O3,10,"Al, O",3.65
+497,aaaeijad,SiO2,36,"O, Si",3.566
+498,aaaeijao,Ho2O3,5,"Ho, O",3.862
+499,aaaeijar,Y2O3,5,"O, Y",3.853
+500,aaaeijdo,ZrO2,36,"O, Zr",6.22
+501,aaaeijdy,MoS2,6,"Mo, S",1.087
+502,aaaeijes,MgO,24,"Mg, O",2.004
+503,aaaeijet,Ta2O5,7,"O, Ta",6.61
+504,aaaeijfi,Ta2O5,14,"O, Ta",6.994
+505,aaaeijfu,SrO,4,"O, Sr",2.591
+506,aaaeijgn,SiO2,30,"O, Si",4.181
+507,aaaeijgr,ZrO2,12,"O, Zr",6.08
+508,aaaeijgt,MgO,8,"Mg, O",1.891
+509,aaaeijgz,ThCl4,10,"Cl, Th",5.739
+510,aaaeijhz,H2O,12,"H, O",1.592
+511,aaaeijig,CsGe,32,"Cs, Ge",1.567
+512,aaaeijii,Y2O3,30,"O, Y",4.162
+513,aaaeijiv,Bi2O3,10,"Bi, O",4.808
+514,aaaeijjf,ZrO2,30,"O, Zr",5.645
+515,aaaeijjn,ErCl3,8,"Cl, Er",4.928
+516,aaaeijjw,Al2O3,20,"Al, O",3.681
+517,aaaeijki,SiO2,12,"O, Si",3.567
+518,aaaeijlf,Na2CO3,12,"C, Na, O",2.768
+519,aaaeijlk,SiO2,54,"O, Si",4.201
+520,aaaeijls,RbF,2,"F, Rb",1.251
+521,aaaeijly,Ca3V2O8,13,"Ca, O, V",3.736
+522,aaaeijmp,FeSi2,24,"Fe, Si",7.295
+523,aaaeijmv,ZrO2,9,"O, Zr",7.584
+524,aaaeijmx,BeH2,18,"Be, H",1.239
+525,aaaeijna,Bi2O3,20,"Bi, O",3.74
+526,aaaeijnf,Er2O3,5,"Er, O",3.839
+527,aaaeijni,SiO2,9,"O, Si",3.508
+528,aaaeijnv,Y2O3,40,"O, Y",3.974
+529,aaaeijon,Sc2O3,15,"O, Sc",4.203
+530,aaaeijoq,HfO2,3,"Hf, O",5.535
+531,aaaeijpg,TiO2,24,"O, Ti",7.248
+532,aaaeijpi,Tm2O3,5,"O, Tm",3.811
+533,aaaeijqa,Al2O3,40,"Al, O",3.04
+534,aaaeijqc,Ta2O5,21,"O, Ta",9.494
+535,aaaeijqg,SiO2,24,"O, Si",3.669
+536,aaaeijqh,SiO2,60,"O, Si",4.237
+537,aaaeijqq,HI,16,"H, I",2.031
+538,aaaeijqz,BeAl2O4,28,"Al, Be, O",3.196
+539,aaaeijrw,SiO2,12,"O, Si",3.9
+540,aaaeijsn,CuI,4,"Cu, I",1.0
+541,aaaeijsv,Na2SO4,28,"Na, O, S",3.251
+542,aaaeijts,MgMoO4,24,"Mg, Mo, O",4.165
+543,aaaeijus,Cs2O,6,"Cs, O",2.923
+544,aaaeijuu,KErS2,4,"Er, K, S",4.316
+545,aaaeijwf,MgO,4,"Mg, O",1.891
+546,aaaeijwg,BaAl2O4,56,"Al, Ba, O",2.912
+547,aaaeijwl,Al2O3,5,"Al, O",3.219
+548,aaaeijww,In2O3,40,"In, O",3.387
+549,aaaeijxz,SiO2,48,"O, Si",3.357
+550,aaaeijyf,H2O,12,"H, O",1.595
+551,aaaeijyg,DyCl3,8,"Cl, Dy",4.469
+552,aaaeijyu,TiO2,12,"O, Ti",7.228
+553,aaaeijzd,Bi2O3,20,"Bi, O",5.891
+554,aaaeijzr,TiO2,12,"O, Ti",5.843
+555,aaaeijzv,Li2O,12,"Li, O",1.92
+556,aaaeikal,Na2O,9,"Na, O",1.93
+557,aaaeikbc,TiO2,24,"O, Ti",7.511
+558,aaaeikbu,Al2O3,20,"Al, O",3.143
+559,aaaeikbw,Na2O,9,"Na, O",1.93
+560,aaaeikdz,SiO2,36,"O, Si",3.506
+561,aaaeikfr,Al2O3,20,"Al, O",3.092
+562,aaaeikhg,SiO2,54,"O, Si",4.263
+563,aaaeikiv,CsS,4,"Cs, S",1.275
+564,aaaeikjz,HoHSe,3,"H, Ho, Se",3.132
+565,aaaeikle,C,2,C,0.0
+566,aaaeiklt,NdTlS2,4,"Nd, S, Tl",4.425
+567,aaaeikoe,CuI,4,"Cu, I",1.014
+568,aaaeikoh,TlCl,2,"Cl, Tl",1.871
+569,aaaeikpf,ThO2,3,"O, Th",5.409
+570,aaaeikps,SrO2,3,"O, Sr",2.676
+571,aaaeikqf,LiDyS2,4,"Dy, Li, S",4.335
+572,aaaeiksu,NaCl,2,"Cl, Na",1.091
+573,aaaeiktr,YCuSe2,4,"Cu, Se, Y",4.331
+574,aaaeiktu,UN2,3,"N, U",9.775
+575,aaaeikuf,Rb2Te,3,"Rb, Te",1.936
+576,aaaeikuo,Sr3AsN,5,"As, N, Sr",4.566
+577,aaaeikvo,Ca2BrN,4,"Br, Ca, N",3.434
+578,aaaeikxq,CaF2,3,"Ca, F",2.372
+579,aaaeikxs,Li2Te,3,"Li, Te",1.922
+580,aaaeikyd,CsBr,2,"Br, Cs",1.326
+581,aaaeikzb,LiZnSb,3,"Li, Sb, Zn",3.05
+582,aaaeikzv,Y2SO2,5,"O, S, Y",3.817
+583,aaaeilbc,KLaTe2,4,"K, La, Te",4.544
+584,aaaeilbt,RbScO2,4,"O, Rb, Sc",4.288
+585,aaaeilbx,ThSbRh,3,"Rh, Sb, Th",3.67
+586,aaaeilcl,CuBr,2,"Br, Cu",0.559
+587,aaaeilee,ZnTe,4,"Te, Zn",2.001
+588,aaaeilfo,BaHgO2,4,"Ba, Hg, O",2.916
+589,aaaeilhd,LiZnP,3,"Li, P, Zn",2.781
+590,aaaeilhp,InCuO2,4,"Cu, In, O",3.45
+591,aaaeilix,ZnSe,4,"Se, Zn",2.068
+592,aaaeilkq,SiPAu,3,"Au, P, Si",1.444
+593,aaaeilmj,TbNiSb,3,"Ni, Sb, Tb",2.302
+594,aaaeilnb,LiH,2,"H, Li",1.016
+595,aaaeilnr,LiF,2,"F, Li",1.044
+596,aaaeilpw,RbPaO3,5,"O, Pa, Rb",6.827
+597,aaaeiltj,CsTmS2,4,"Cs, S, Tm",4.3
+598,aaaeilwg,CsPaO3,5,"Cs, O, Pa",7.078
+599,aaaeilxq,H2,4,H,0.0
+600,aaaeimaq,NaTmS2,4,"Na, S, Tm",4.278
+601,aaaeimco,CsCaBr3,5,"Br, Ca, Cs",2.476
+602,aaaeimcp,CsSnCl3,5,"Cl, Cs, Sn",4.853
+603,aaaeimfs,CsSrCl3,5,"Cl, Cs, Sr",2.421
+604,aaaeimfz,LiBiS2,4,"Bi, Li, S",5.868
+605,aaaeimja,KSmS2,4,"K, S, Sm",4.515
+606,aaaeimlk,K2PtSe2,5,"K, Pt, Se",2.177
+607,aaaeimlw,Cd2TeSe,4,"Cd, Se, Te",2.529
+608,aaaeimnl,LiRhO2,4,"Li, O, Rh",3.346
+609,aaaeimnm,KSmSe2,4,"K, Se, Sm",4.586
+610,aaaeimod,YAgS2,4,"Ag, S, Y",4.213
+611,aaaeimpo,LaAlO3,5,"Al, La, O",4.481
+612,aaaeimqm,RbSmO2,4,"O, Rb, Sm",4.4
+613,aaaeimsu,KNO3,5,"K, N, O",2.753
+614,aaaeimuo,TlF,4,"F, Tl",2.006
+615,aaaeimux,TlCl,4,"Cl, Tl",2.112
+616,aaaeimvv,Dy2SO2,5,"Dy, O, S",3.871
+617,aaaeimwl,RbCaF3,5,"Ca, F, Rb",2.366
+618,aaaeimwx,Ba(MgBi)2,5,"Ba, Bi, Mg",3.428
+619,aaaeinan,AlCuO2,4,"Al, Cu, O",3.051
+620,aaaeinap,UO3,4,"O, U",8.777
+621,aaaeinbt,SnTe2Pb,4,"Pb, Sn, Te",7.263
+622,aaaeincf,Na2TlSb,4,"Na, Sb, Tl",5.96
+623,aaaeindq,Li3N,4,"Li, N",2.754
+624,aaaeindy,S,32,S,0.348
+625,aaaeitia,NaLiTi3O7,24,"Li, Na, O",6.67
+626,aaaeitxg,Sr2LaSbO6,20,"La, O, Sb",5.049
+627,aaaeivul,KNaW(OF2)2,18,"F, K, Na",5.202
+628,aaaeivyx,SnH4,10,"H, Sn",1.63
+629,aaaeiwho,NaTbH2S2O9,45,"H, Na, O",4.294
+630,aaaeiwhu,K3YV2O8,14,"K, O, V",5.222
+631,aaaeiwrq,VInO4,12,"In, O, V",6.966
+632,aaaeiwsx,CaSi(HO2)2,32,"Ca, H, O",3.057
+633,aaaeixft,NaPrTiO4,14,"Na, O, Pr",5.573
+634,aaaeixjf,Cs2W3SeO12,36,"Cs, O, Se",10.432
+635,aaaeixjs,TaPO5,14,"O, P, Ta",7.693
+636,aaaeixll,Pd(NO3)2,18,"N, O, Pd",3.287
+637,aaaeixom,CeTi2O6,18,"Ce, O, Ti",7.467
+638,aaaeiybe,RbTb2Ag3Te5,22,"Ag, Rb, Tb",4.54
+639,aaaeiycm,Sr2ScSbO6,20,"O, Sb, Sc",5.072
+640,aaaeiyhx,BiIrS,12,"Bi, Ir, S",4.498
+641,aaaeiyrf,Na2CO3,12,"C, Na, O",2.794
+642,aaaeizul,V2P2H2O11,34,"H, O, P",5.566
+643,aaaejbgs,Sr2Bi2Se3O2,9,"Bi, O, Se",6.559
+644,aaaejbtm,AgCS(OF)3,18,"Ag, C, F",3.251
+645,aaaejcge,LaP3(HO2)6,22,"H, La, O",4.932
+646,aaaejclq,CsV2I3O13,38,"Cs, I, O",10.149
+647,aaaejcqr,PrHSO5,32,"H, O, Pr",4.201
+648,aaaejctk,K2Zr(H2N)6,42,"H, K, N",5.069
+649,aaaekkyu,Y6WO12,19,"O, W, Y",7.764
+650,aaaekkyv,Cs3Bi2Cl9,14,"Bi, Cl, Cs",4.097
+651,aaaekkzi,SbTeRu,12,"Ru, Sb, Te",6.846
+652,aaaekkzw,AgPS3,10,"Ag, P, S",4.008
+653,aaaeklan,DyRhO3,20,"Dy, O, Rh",4.281
+654,aaaeklat,Tl6TeO6,13,"O, Te, Tl",6.724
+655,aaaeklbs,NaTaO3,20,"Na, O, Ta",8.459
+656,aaaeklcn,BaZnF4,12,"Ba, F, Zn",2.846
+657,aaaeklde,ScOF,12,"F, O, Sc",4.002
+658,aaaekldp,MgTa2O6,18,"Mg, O, Ta",7.804
+659,aaaekldr,La3Sb4Au3,20,"Au, La, Sb",4.055
+660,aaaekldx,NaZnF3,20,"F, Na, Zn",2.255
+661,aaaekldz,RbAuCl4,12,"Au, Cl, Rb",1.714
+662,aaaeklec,Li3CuS2,12,"Cu, Li, S",1.861
+663,aaaeklej,CsAgBr2,8,"Ag, Br, Cs",1.572
+664,aaaekleq,Nd(YS2)3,20,"Nd, S, Y",4.63
+665,aaaeklfm,Li2HfO3,12,"Hf, Li, O",5.836
+666,aaaeklfv,SmVO4,12,"O, Sm, V",4.992
+667,aaaeklfy,ZnSeO4,12,"O, Se, Zn",3.916
+668,aaaeklgi,AlPS4,12,"Al, P, S",4.166
+669,aaaeklgn,CeTh2O6,9,"Ce, O, Th",5.911
+670,aaaeklgp,BaSiN2,16,"Ba, N, Si",3.654
+671,aaaeklha,Ba(AuO2)2,14,"Au, Ba, O",3.012
+672,aaaeklhm,KSiH3,20,"H, K, Si",1.249
+673,aaaeklkm,AlSbI6,16,"Al, I, Sb",3.421
+674,aaaeklkx,BaHgS2,16,"Ba, Hg, S",3.833
+675,aaaekllc,Na3BiO4,16,"Bi, Na, O",5.174
+676,aaaekllt,Sr3(AlAs2)2,18,"Al, As, Sr",3.298
+677,aaaeklmv,K(SbSe2)2,14,"K, Sb, Se",6.973
+678,aaaeklnl,Li2IBr,4,"Br, I, Li",1.138
+679,aaaeklnm,NaBH4,12,"B, H, Na",1.114
+680,aaaeklov,ZrO2,12,"O, Zr",5.893
+681,aaaekloz,InTeBr,12,"Br, In, Te",3.004
+682,aaaeklpz,Pr(YS2)3,20,"Pr, S, Y",4.628
+683,aaaeklql,Rb3AlO3,14,"Al, O, Rb",2.145
+684,aaaeklqq,LaTeCl,12,"Cl, La, Te",4.363
+685,aaaeklqt,LiBeH3,10,"Be, H, Li",1.091
+686,aaaeklre,NaNbS6,16,"Na, Nb, S",2.765
+687,aaaeklrf,KNaS,12,"K, Na, S",2.049
+688,aaaeklrg,Sr(BrO3)2,18,"Br, O, Sr",2.996
+689,aaaeklsl,PIrS,12,"Ir, P, S",3.666
+690,aaaeklti,Sr(GaAs)2,20,"As, Ga, Sr",3.711
+691,aaaekltt,Sr3(AsO4)2,13,"As, O, Sr",3.402
+692,aaaeklue,SiO2,24,"O, Si",3.669
+693,aaaekluf,K2HfF6,18,"F, Hf, K",4.733
+694,aaaeklug,LiCaN,12,"Ca, Li, N",2.822
+695,aaaekluj,CsSrCl3,20,"Cl, Cs, Sr",2.431
+696,aaaeklwi,Ho2SO2,10,"Ho, O, S",3.862
+697,aaaeklxa,Na5SbO5,11,"Na, O, Sb",5.705
+698,aaaeklxc,GaClO,12,"Cl, Ga, O",2.729
+699,aaaeklxd,Zr3GeO8,12,"Ge, O, Zr",5.918
+700,aaaeklxo,Rb2Te,12,"Rb, Te",2.108
+701,aaaeklxx,CuTe2Cl,16,"Cl, Cu, Te",2.324
+702,aaaeklym,TbNbO4,12,"Nb, O, Tb",5.706
+703,aaaeklyx,SrBiO3,20,"Bi, O, Sr",5.944
+704,aaaeklzd,Si2CN4,14,"C, N, Si",5.461
+705,aaaeklzv,NaHoO2,8,"Ho, Na, O",3.762
+706,aaaeklzz,Na2BeH4,14,"Be, H, Na",1.142
+707,aaaekmaf,Rb2CeO3,12,"Ce, O, Rb",5.739
+708,aaaekmay,Ba3Nb2O8,13,"Ba, Nb, O",3.886
+709,aaaekmbc,NdNbO4,12,"Nb, Nd, O",5.643
+710,aaaekmbk,Sr3(InP2)2,18,"In, P, Sr",3.622
+711,aaaekmbm,Cs3Pb4Au,16,"Au, Cs, Pb",2.028
+712,aaaekmby,Nd3GaO6,20,"Ga, Nd, O",4.048
+713,aaaekmce,RbHg5Cl11,17,"Cl, Hg, Rb",2.208
+714,aaaekmcg,HgSeO3,20,"Hg, O, Se",2.871
+715,aaaekmcs,NaBH4,12,"B, H, Na",1.114
+716,aaaekmcu,Ba3V2O8,13,"Ba, O, V",3.507
+717,aaaekmdi,Lu2S3,30,"Lu, S",5.136
+718,aaaekmdp,Ho3ScO6,20,"Ho, O, Sc",4.596
+719,aaaekmdq,Rb2GeF6,18,"F, Ge, Rb",3.364
+720,aaaekmds,Al5CuS8,14,"Al, Cu, S",3.119
+721,aaaekmee,RbCu2Br3,12,"Br, Cu, Rb",1.427
+722,aaaekmei,CsTaCl6,16,"Cl, Cs, Ta",5.493
+723,aaaekmfj,Zn(SbO3)2,18,"O, Sb, Zn",5.142
+724,aaaekmfn,TiNb3O6,20,"Nb, O, Ti",8.389
+725,aaaekmgd,BiSBr,12,"Bi, Br, S",5.785
+726,aaaekmic,B2S2O9,13,"B, O, S",3.894
+727,aaaekmim,Na3SbO4,16,"Na, O, Sb",4.966
+728,aaaekmja,CuSe2Br,16,"Br, Cu, Se",1.847
+729,aaaekmjc,PrBS3,20,"B, Pr, S",4.215
+730,aaaekmjg,KAsO2,16,"As, K, O",3.135
+731,aaaekmjj,Pb2OF2,20,"F, O, Pb",3.219
+732,aaaekmjm,BaIBr,12,"Ba, Br, I",2.759
+733,aaaekmju,SrTaF7,18,"F, Sr, Ta",5.237
+734,aaaekmkd,K3ClO,10,"Cl, K, O",2.142
+735,aaaekmlc,Na3DyCl6,20,"Cl, Dy, Na",3.522
+736,aaaekmlh,Sb3ClO4,16,"Cl, O, Sb",4.908
+737,aaaekmll,CaSnN2,16,"Ca, N, Sn",3.277
+738,aaaekmlx,Rb2CdO2,20,"Cd, O, Rb",2.547
+739,aaaekmme,Tm2CdSe4,14,"Cd, Se, Tm",3.783
+740,aaaekmmf,AsRuSe,12,"As, Ru, Se",6.041
+741,aaaekmmi,K2Sn2O3,14,"K, O, Sn",4.796
+742,aaaekmmm,MgTi2O5,16,"Mg, O, Ti",5.96
+743,aaaekmms,Cs3Ca2Cl7,12,"Ca, Cl, Cs",2.417
+744,aaaekmne,CsAuO,12,"Au, Cs, O",2.04
+745,aaaekmnt,K2Mg2O3,14,"K, Mg, O",2.145
+746,aaaekmoa,SrHN,12,"H, N, Sr",2.68
+747,aaaekmoz,Rb2Pb2O3,14,"O, Pb, Rb",4.524
+748,aaaekmpn,Bi4PbS7,12,"Bi, Pb, S",7.368
+749,aaaekmpw,Sc2CdSe4,14,"Cd, Sc, Se",3.864
+750,aaaekmpz,HgTe,6,"Hg, Te",3.283
+751,aaaekmqb,Sm(ErS2)3,20,"Er, S, Sm",4.674
+752,aaaekmqf,KCuS,12,"Cu, K, S",1.66
+753,aaaekmqh,TmVO4,12,"O, Tm, V",4.77
+754,aaaekmrd,K3BiO4,16,"Bi, K, O",3.445
+755,aaaekmrj,K2GeF6,9,"F, Ge, K",3.368
+756,aaaekmrr,SrCO3,20,"C, O, Sr",2.821
+757,aaaekmsm,ZnCd3Se4,8,"Cd, Se, Zn",2.341
+758,aaaekmte,Sr3TeO6,20,"O, Sr, Te",4.896
+759,aaaekmtg,CdWO4,12,"Cd, O, W",7.338
+760,aaaekmtt,DyCuS2,16,"Cu, Dy, S",4.572
+761,aaaekmtv,Al2PbS4,14,"Al, Pb, S",4.861
+762,aaaekmul,TlAuCl4,12,"Au, Cl, Tl",1.966
+763,aaaekmus,Ag3AsS3,14,"Ag, As, S",2.518
+764,aaaekmvd,Ni(NF7)2,17,"F, N, Ni",2.124
+765,aaaekmvo,InBiS3,10,"Bi, In, S",5.864
+766,aaaekmvq,NbAlO4,12,"Al, Nb, O",6.816
+767,aaaekmvv,Cs2HfO3,12,"Cs, Hf, O",4.84
+768,aaaekmwm,Li4HN,12,"H, Li, N",2.415
+769,aaaekmwn,BeSiN2,16,"Be, N, Si",3.277
+770,aaaekmwo,InHO2,8,"H, In, O",3.442
+771,aaaekmwy,Nd(HO)3,14,"H, Nd, O",3.978
+772,aaaekmxm,HAuO2,8,"Au, H, O",3.197
+773,aaaekmyc,Te6IrBr3,20,"Br, Ir, Te",3.184
+774,aaaekmyg,CsPb2Cl5,16,"Cl, Cs, Pb",3.956
+775,aaaekmyr,SrZnO2,16,"O, Sr, Zn",2.703
+776,aaaekmzg,KBeF3,20,"Be, F, K",1.75
+777,aaaekmzo,Cd(GaO2)2,14,"Cd, Ga, O",3.109
+778,aaaekmzt,ZrO2,24,"O, Zr",5.655
+779,aaaekmzw,Cd2As3I,12,"As, Cd, I",2.665
+780,aaaeknae,Na3TbBr6,20,"Br, Na, Tb",3.558
+781,aaaeknar,TlBiF4,12,"Bi, F, Tl",5.267
+782,aaaeknat,Tm6WO12,19,"O, Tm, W",7.75
+783,aaaeknay,NdCuSe2,16,"Cu, Nd, Se",4.862
+784,aaaeknbh,Rb2CN2,15,"C, N, Rb",2.064
+785,aaaeknbi,KSn2Cl5,16,"Cl, K, Sn",4.049
+786,aaaeknby,HfZrS6,8,"Hf, S, Zr",5.651
+787,aaaekncl,K2CdO2,20,"Cd, K, O",2.518
+788,aaaekncw,SiPtSe,12,"Pt, Se, Si",3.708
+789,aaaekndj,Cs3Bi2Br9,14,"Bi, Br, Cs",4.289
+790,aaaekndo,Sr3GaN3,14,"Ga, N, Sr",3.35
+791,aaaekndr,Y2MgS4,14,"Mg, S, Y",3.569
+792,aaaekndv,Rb2TaF7,20,"F, Rb, Ta",4.755
+793,aaaeknev,SbIrS,12,"Ir, S, Sb",4.21
+794,aaaeknff,Tl4SiS4,18,"S, Si, Tl",3.027
+795,aaaeknfl,CsSbCl6,16,"Cl, Cs, Sb",4.061
+796,aaaeknfx,SbSBr,12,"Br, S, Sb",6.215
+797,aaaekngf,Rb2Hg3Se4,18,"Hg, Rb, Se",2.917
+798,aaaekngq,ZnCrO4,12,"Cr, O, Zn",3.815
+799,aaaekngt,NaGaO2,16,"Ga, Na, O",2.659
+800,aaaeknhv,RbCu3S2,12,"Cu, Rb, S",2.478
+801,aaaeknhw,Cs3H5Pd,18,"Cs, H, Pd",1.303
+802,aaaeknid,Mg(ScS2)2,14,"Mg, S, Sc",3.642
+803,aaaeknio,Na2MoO4,14,"Mo, Na, O",3.31
+804,aaaeknjj,SbTeIr,12,"Ir, Sb, Te",5.247
+805,aaaeknke,NaTmO2,16,"Na, O, Tm",3.933
+806,aaaeknkw,Cu2SiSe3,12,"Cu, Se, Si",2.873
+807,aaaeknky,Rb3BP2,12,"B, P, Rb",2.89
+808,aaaeknld,CaSeO3,20,"Ca, O, Se",3.306
+809,aaaeknlg,Sr3V2O8,13,"O, Sr, V",3.482
+810,aaaeknlj,Mg2GeO4,14,"Ge, Mg, O",3.177
+811,aaaeknln,LiAlO2,16,"Al, Li, O",2.52
+812,aaaeknlt,CaHfO3,20,"Ca, Hf, O",5.624
+813,aaaeknlv,CoPS,12,"Co, P, S",4.213
+814,aaaeknmk,PdPb2F6,18,"F, Pb, Pd",3.415
+815,aaaeknnm,Li2GeO3,12,"Ge, Li, O",3.338
+816,aaaeknnp,Lu2MgS4,14,"Lu, Mg, S",3.539
+817,aaaeknoe,Bi2WO6,18,"Bi, O, W",9.743
+818,aaaeknoq,Cs(SbS2)2,14,"Cs, S, Sb",6.331
+819,aaaeknor,GeBi4Te7,12,"Bi, Ge, Te",8.236
+820,aaaeknov,In2HgS4,14,"Hg, In, S",3.561
+821,aaaeknpf,Cd2As3Br,12,"As, Br, Cd",2.487
+822,aaaeknph,Rb2Sn2Se5,18,"Rb, Se, Sn",3.884
+823,aaaeknpx,LiAg3O2,12,"Ag, Li, O",2.103
+824,aaaeknqj,CaSO4,18,"Ca, O, S",3.818
+825,aaaeknrf,CsClO4,6,"Cl, Cs, O",3.098
+826,aaaeknrg,TlCdF3,5,"Cd, F, Tl",2.477
+827,aaaeknrm,YCuS2,16,"Cu, S, Y",4.464
+828,aaaeknrq,Ca3AsN,20,"As, Ca, N",4.112
+829,aaaeknsg,Ca(AgO2)2,14,"Ag, Ca, O",2.71
+830,aaaeknsh,Li2S,12,"Li, S",2.061
+831,aaaeknsx,AlPS4,12,"Al, P, S",4.32
+832,aaaekntk,CsSnI3,10,"Cs, I, Sn",5.862
+833,aaaekntr,SiO2,24,"O, Si",3.201
+834,aaaekntt,Y2Ge2O7,11,"Ge, O, Y",4.019
+835,aaaeknub,Pr(HoS2)3,20,"Ho, Pr, S",4.709
+836,aaaeknuo,Na5SbO5,11,"Na, O, Sb",5.449
+837,aaaeknuu,K2Cd2O3,14,"Cd, K, O",2.848
+838,aaaeknuw,MgZn3S4,8,"Mg, S, Zn",2.106
+839,aaaeknux,Al2PbO4,14,"Al, O, Pb",3.454
+840,aaaeknve,Na2Zn2O3,14,"Na, O, Zn",2.644
+841,aaaeknvh,Na3DyBr6,20,"Br, Dy, Na",3.542
+842,aaaeknvo,Mg(SbO3)2,18,"Mg, O, Sb",5.101
+843,aaaeknwb,Li4SeO5,20,"Li, O, Se",4.464
+844,aaaeknwl,Cd3(ClO)2,14,"Cd, Cl, O",2.581
+845,aaaeknwr,Zn2IN,16,"I, N, Zn",2.574
+846,aaaeknwz,K2TeO3,12,"K, O, Te",2.515
+847,aaaeknxi,Li2B2S5,18,"B, Li, S",2.458
+848,aaaeknxm,Sm2O3,5,"O, Sm",3.999
+849,aaaeknxp,Sr(NdSe2)2,14,"Nd, Se, Sr",4.236
+850,aaaeknxv,Sr(InTe2)2,14,"In, Sr, Te",3.828
+851,aaaeknxy,Cd2SnO4,14,"Cd, O, Sn",4.458
+852,aaaeknxz,Hg2SO4,14,"Hg, O, S",4.594
+853,aaaeknyh,KHgF3,5,"F, Hg, K",2.563
+854,aaaeknyn,YTaO4,12,"O, Ta, Y",5.574
+855,aaaeknyo,ZrTl2S3,12,"S, Tl, Zr",6.896
+856,aaaeknzs,Zn(InS2)2,14,"In, S, Zn",3.929
+857,aaaeknzz,K3AlO3,14,"Al, K, O",2.066
+858,aaaekoac,Cs2HgI4,14,"Cs, Hg, I",2.187
+859,aaaekoae,SrLi4N2,14,"Li, N, Sr",2.974
+860,aaaekoah,Na5Zr2F13,20,"F, Na, Zr",4.436
+861,aaaekoal,CsNO2,12,"Cs, N, O",1.927
+862,aaaekobf,Ti(SeO3)2,18,"O, Se, Ti",7.433
+863,aaaekobl,NaTaO3,10,"Na, O, Ta",8.622
+864,aaaekobw,CsLiBr2,8,"Br, Cs, Li",1.349
+865,aaaekocg,Hg2As3Br,12,"As, Br, Hg",3.046
+866,aaaekocm,Na3AlH6,20,"Al, H, Na",2.063
+867,aaaekocp,Cs2H4Pt,14,"Cs, H, Pt",1.303
+868,aaaekocz,RbCaBr3,20,"Br, Ca, Rb",2.457
+869,aaaekodo,MgO,24,"Mg, O",2.048
+870,aaaekodw,YAgSe2,16,"Ag, Se, Y",4.438
+871,aaaekoee,CsAuCl4,12,"Au, Cl, Cs",1.711
+872,aaaekofk,TaAlO4,12,"Al, O, Ta",6.564
+873,aaaekofy,CsI2Br,16,"Br, Cs, I",2.18
+874,aaaekogn,Er3GaS6,20,"Er, Ga, S",4.144
+875,aaaekohn,KCdCl3,20,"Cd, Cl, K",2.702
+876,aaaekoht,HfBrN,6,"Br, Hf, N",4.873
+877,aaaekoiz,V2Pb3O8,13,"O, Pb, V",4.48
+878,aaaekojs,Na2ThF6,18,"F, Na, Th",4.822
+879,aaaekojt,BaMgH4,12,"Ba, H, Mg",2.471
+880,aaaekokl,La6UO12,19,"La, O, U",6.29
+881,aaaekokm,AgAuF4,12,"Ag, Au, F",2.605
+882,aaaekolc,Sb2S2O,10,"O, S, Sb",6.671
+883,aaaekold,CsLiCl2,8,"Cl, Cs, Li",1.323
+884,aaaekole,Y(CuS)3,14,"Cu, S, Y",5.413
+885,aaaekolm,Cs2SbF5,16,"Cs, F, Sb",3.813
+886,aaaekoln,KGe2N3,12,"Ge, K, N",4.377
+887,aaaekomc,Ti(GaO2)4,13,"Ga, O, Ti",6.943
+888,aaaekomg,K3InP2,12,"In, K, P",3.621
+889,aaaekomx,Ag3PSe4,16,"Ag, P, Se",2.673
+890,aaaekonw,LiBO2,8,"B, Li, O",2.439
+891,aaaekony,CaAlF5,14,"Al, Ca, F",2.943
+892,aaaekopk,Na2PdF4,14,"F, Na, Pd",2.015
+893,aaaekopw,K2TiO3,12,"K, O, Ti",5.302
+894,aaaekoqc,K3Ge4Au,16,"Au, Ge, K",1.784
+895,aaaekoqz,Na2UO4,14,"Na, O, U",8.069
+896,aaaekorg,TbTaO4,12,"O, Ta, Tb",5.586
+897,aaaekork,Nb(SeBr)2,10,"Br, Nb, Se",2.48
+898,aaaekorx,TlPt3O4,16,"O, Pt, Tl",3.333
+899,aaaekosi,Cs3Ge4Au,16,"Au, Cs, Ge",2.064
+900,aaaekosq,Zr3N2O3,16,"N, O, Zr",7.428
+901,aaaekosu,GaHgCl4,12,"Cl, Ga, Hg",2.718
+902,aaaekote,DyAgSe2,16,"Ag, Dy, Se",4.547
+903,aaaekotv,CuSbS2,16,"Cu, S, Sb",5.471
+904,aaaekoua,Sn2OF5,16,"F, O, Sn",4.741
+905,aaaekouj,TaBO4,12,"B, O, Ta",6.583
+906,aaaekovw,LiNdSe2,8,"Li, Nd, Se",4.622
+907,aaaekowo,Li10BrN3,14,"Br, Li, N",2.646
+908,aaaekowq,K2MoO4,14,"K, Mo, O",3.21
+909,aaaekowz,Sc(CuS)3,14,"Cu, S, Sc",5.382
+910,aaaekoxd,Cs3ZnCl5,18,"Cl, Cs, Zn",1.972
+911,aaaekoxj,AlCuBr4,12,"Al, Br, Cu",2.818
+912,aaaekoxk,Ba2ThS6,18,"Ba, S, Th",5.54
+913,aaaekoxn,NaErCl4,12,"Cl, Er, Na",3.745
+914,aaaekoxs,Y2HfO5,16,"Hf, O, Y",5.803
+915,aaaekoyf,Na2ZrSe3,12,"Na, Se, Zr",6.78
+916,aaaekoym,Na5NpO6,12,"Na, Np, O",4.479
+917,aaaekoyu,HN,32,"H, N",3.827
+918,aaaekozi,SmPaO4,12,"O, Pa, Sm",7.273
+919,aaaekozp,BaCO3,20,"Ba, C, O",2.901
+920,aaaekozw,Ho(CuS)3,14,"Cu, Ho, S",5.364
+921,aaaekpae,TmPO4,12,"O, P, Tm",4.345
+922,aaaekpah,La(HO)3,14,"H, La, O",4.167
+923,aaaekpak,Ba(LaSe2)2,14,"Ba, La, Se",4.236
+924,aaaekpam,Sr3WO6,20,"O, Sr, W",7.176
+925,aaaekpaw,MgWO4,12,"Mg, O, W",7.361
+926,aaaekpbp,Ba(AlTe2)2,14,"Al, Ba, Te",3.973
+927,aaaekpbx,TmHO2,16,"H, O, Tm",4.049
+928,aaaekpcc,Th(PS3)2,18,"P, S, Th",5.814
+929,aaaekpcx,BaZrF6,16,"Ba, F, Zr",4.954
+930,aaaekpea,K3GaO3,14,"Ga, K, O",2.21
+931,aaaekpel,Dy2O3,5,"Dy, O",3.888
+932,aaaekpeo,RbSnI3,20,"I, Rb, Sn",4.678
+933,aaaekpes,KNbF6,16,"F, K, Nb",4.957
+934,aaaekpgh,Li3NbS4,8,"Li, Nb, S",1.774
+935,aaaekpgq,Ga2TeO6,18,"Ga, O, Te",5.425
+936,aaaekpgu,KNaTe,12,"K, Na, Te",2.118
+937,aaaekpgx,Tl2SbF5,16,"F, Sb, Tl",4.41
+938,aaaekphb,Li2MgBr4,7,"Br, Li, Mg",2.323
+939,aaaekphr,SrPbO3,20,"O, Pb, Sr",4.657
+940,aaaekpht,CeTh3O8,12,"Ce, O, Th",5.956
+941,aaaekpia,La5TlSe8,14,"La, Se, Tl",4.49
+942,aaaekpie,Li2WO4,14,"Li, O, W",6.912
+943,aaaekpih,Ca(HoTe2)2,7,"Ca, Ho, Te",5.441
+944,aaaekpin,LaBO3,10,"B, La, O",4.346
+945,aaaekpir,NaClO4,12,"Cl, Na, O",3.202
+946,aaaekpjy,SrSnO3,10,"O, Sn, Sr",4.255
+947,aaaekpla,Sr5As3H,18,"As, H, Sr",3.741
+948,aaaekpli,CsPbBr3,20,"Br, Cs, Pb",4.072
+949,aaaekplp,KNbS2,8,"K, Nb, S",2.115
+950,aaaekplv,Ta3SBr7,11,"Br, S, Ta",3.221
+951,aaaekplz,Nd(TmS2)3,20,"Nd, S, Tm",4.642
+952,aaaekpmc,Sr(AlSe2)2,14,"Al, Se, Sr",3.26
+953,aaaekpmg,Ba2P7I,20,"Ba, I, P",3.591
+954,aaaekpmk,CaIn2O4,14,"Ca, In, O",3.442
+955,aaaekpna,TePb,8,"Pb, Te",5.903
+956,aaaekpnn,Be4TeO7,12,"Be, O, Te",4.945
+957,aaaekpnz,Lu2CdSe4,14,"Cd, Lu, Se",3.726
+958,aaaekpob,TbCuSe2,16,"Cu, Se, Tb",4.666
+959,aaaekpop,Na2ZrS3,12,"Na, S, Zr",6.36
+960,aaaekpow,SeOF2,16,"F, O, Se",3.5
+961,aaaekppd,BaSnF4,12,"Ba, F, Sn",3.384
+962,aaaekppe,Nd(ErS2)3,20,"Er, Nd, S",4.679
+963,aaaekppm,K2Sn2O3,7,"K, O, Sn",4.045
+964,aaaekppr,CsTaI6,16,"Cs, I, Ta",8.497
+965,aaaekpqc,BaSnS2,16,"Ba, S, Sn",3.487
+966,aaaekpqh,DyHO2,8,"Dy, H, O",4.176
+967,aaaekpqt,CuBiO2,8,"Bi, Cu, O",5.169
+968,aaaekpqw,K2CO3,12,"C, K, O",2.956
+969,aaaekprc,CuTe2I,16,"Cu, I, Te",2.299
+970,aaaekprx,VBiO4,12,"Bi, O, V",6.343
+971,aaaekpsd,Tl2Hg3S4,18,"Hg, S, Tl",3.083
+972,aaaekpsv,Bi4Te7Pb,12,"Bi, Pb, Te",7.951
+973,aaaekpsz,MgGeN2,16,"Ge, Mg, N",3.165
+974,aaaekpts,AlAuO2,8,"Al, Au, O",3.283
+975,aaaekpue,Sr2SnO4,14,"O, Sn, Sr",4.317
+976,aaaekpul,K2PbO3,12,"K, O, Pb",4.49
+977,aaaekpvb,Na3ErBr6,20,"Br, Er, Na",3.509
+978,aaaekpvc,TbPO4,12,"O, P, Tb",4.434
+979,aaaekpvj,VZn2N3,12,"N, V, Zn",4.946
+980,aaaekpwj,Pr(CdP)3,14,"Cd, P, Pr",4.855
+981,aaaekpwu,TmSeF,12,"F, Se, Tm",5.652
+982,aaaekpwz,GaAsO4,18,"As, Ga, O",3.765
+983,aaaekpxb,ErAgSe2,16,"Ag, Er, Se",4.5
+984,aaaekpxj,Rb3I2Br,6,"Br, I, Rb",1.225
+985,aaaekpxu,CsCu2Br3,12,"Br, Cs, Cu",1.482
+986,aaaekpyc,KCu3S2,12,"Cu, K, S",2.429
+987,aaaekpyh,Li3PO4,16,"Li, O, P",3.162
+988,aaaekpyn,Zn3SbN3,7,"N, Sb, Zn",2.848
+989,aaaekpyp,H4BrN,6,"Br, H, N",1.25
+990,aaaekpyy,Li4PbO4,18,"Li, O, Pb",3.377
+991,aaaekpzj,DyNbO4,12,"Dy, Nb, O",5.668
+992,aaaekqag,HfSO,12,"Hf, O, S",5.071
+993,aaaekqan,Tl3PO4,16,"O, P, Tl",3.833
+994,aaaekqau,SbTeOs,12,"Os, Sb, Te",6.763
+995,aaaekqbx,Cu3PS4,16,"Cu, P, S",3.1
+996,aaaekqcf,Na3IrF6,10,"F, Ir, Na",2.073
+997,aaaekqcs,CaF2,12,"Ca, F",2.422
+998,aaaekqct,CdIn2O4,14,"Cd, In, O",3.065
+999,aaaekqcx,Rb2MgO2,20,"Mg, O, Rb",2.067
+1000,aaaekqds,SmAsO4,12,"As, O, Sm",4.344

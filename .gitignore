@@ -4,9 +4,12 @@ __pycache__/
 *.pyo
 *.pyd
 *.egg-info/
-.eggs/
 build/
 dist/
+
+# Large Datasets & Environment
+*.xyz
+.env
 
 # Logs & temp
 *.log

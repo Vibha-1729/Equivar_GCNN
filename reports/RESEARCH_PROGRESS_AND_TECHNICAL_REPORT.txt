@@ -1,0 +1,112 @@
+================================================================================
+                    DISCOVERY OF ANOMALOUS BEC SEMICONDUCTORS
+             VIA EQUIVARIANT GRAPH NEURAL NETWORKS (EquivarBECGNN)
+================================================================================
+Project Title : Data-Driven Discovery of Crystalline Semiconductors with
+                Anomalous Born Effective Charges using Equivariant GNNs
+Student       : Vibha Narayan (Roll No: 231141)
+Supervisor    : Prof. Koushik Pal (Department of Physics, IIT Kanpur)
+Course        : Undergraduate Project (PHY497)
+Repository    : https://github.com/Vibha-1729/Equivar_GCNN
+Report Date   : September 2026
+
+================================================================================
+1. EXECUTIVE SUMMARY & COMPLETED TASK CHECKLIST
+================================================================================
+This project establishes an end-to-end data-driven computational framework for 
+predicting 3x3 Born Effective Charge (BEC) tensors Z*_ij across the periodic 
+table using an E(3)-equivariant Graph Neural Network (EquivarBECGNN).
+
+Status of Tasks Assigned by Prof. Koushik Pal:
+--------------------------------------------------------------------------------
+[COMPLETED] Task 1: Individual MAE over Mendeley Database and Materials Project Database
+                     - Mendeley-Only Model MAE (500 ep, 80/10/10): 0.3821 e
+                     - Materials Project-Only Model MAE (500 ep):   0.5060 e
+                     - Unified Master Combined Model MAE (500 ep):  0.3854 e
+
+[COMPLETED] Task 2: Cross-Dataset Transfer Evaluation
+                     - Trained on Mendeley -> Predicted on 100% MP: 6.8174 e MAE (Zero-shot)
+                     - Trained on MP -> Predicted on 100% Mendeley: 0.3842 e MAE
+
+[COMPLETED] Task 3: Training Loss & Validation Tracking Over Epochs
+                     - 500-epoch loss curves generated and exported as PNG plots.
+
+[COMPLETED] Task 4: Dataset Mixing Experiments (MP + Mendeley)
+                     - Master Combined Model (80/10/10 split over 38,857 structures):
+                       Val MAE = 0.3895 e, Test MAE = 0.3854 e.
+
+[COMPLETED] Task 5: Acoustic Sum Rule (ASR) Neutrality & Quality Audit
+                     - Net charge drift ||sum_i Z*_i||_F <= 1.0 e enforced.
+                     - Removed 4,991 high-temperature unphysical MD snapshots.
+
+[COMPLETED] Task 6: Non-Zero Bandgap (Eg > 0 eV) Insulator Filtering
+                     - Filtered out metallic structures (Eg = 0 eV) where BEC is ill-defined.
+
+[COMPLETED] Task 7: Bandgap GNN Regressor for Mendeley Dataset
+                     - Trained EquivarGNN Bandgap Regressor on MP DFT bandgaps (Val MAE = 0.412 eV).
+
+[COMPLETED] Task 8: Histogram Analysis of BEC Tensor Distributions
+                     - Plotted diagonal (Z11, Z22, Z33) and off-diagonal (Z12, Z23) BEC distributions.
+
+[COMPLETED] Task 9: Anomalous BEC Tensor Identification Rules
+                     - Evaluated 1.55M+ atomic BEC tensors across 85 elements.
+                     - Identified anomalous BEC in Nb (+8.31e), W (+7.55e), Ti (+6.92e), Zr (+6.49e), Bi (+6.40e).
+
+[COMPLETED] Task 10: Geometry-Based Deduplication & Master Dataset Curation
+                      - Created Master Combined Dataset (38,857 unique structures).
+
+
+================================================================================
+2. MASTER DATASET CURATION & DEDUPLICATION RULES
+================================================================================
+1. Coordinate-Based Fingerprinting:
+   - MD5 hash calculated from stoichiometry, atom count, and 3D atomic coordinates.
+   - Polymorphic structural phases (e.g. cubic vs monoclinic ZrO2, thermal MD snapshots)
+     with distinct atomic positions were preserved.
+   - 34 exact coordinate duplicates were removed.
+
+2. Acoustic Sum Rule (ASR) Neutrality Filter:
+   - Net unit-cell charge drift calculated as ||sum_i Z*_i||_F.
+   - 4,991 unphysical high-temperature MD snapshots with drift > 1.0 e were removed.
+
+3. Insulator Requirement (Eg > 0 eV):
+   - Verified Eg > 0 eV for all 38,857 retained structures.
+
+Master Dataset Summary:
+-----------------------
+- Mendeley Unique Valid Structures : 24,327 structures
+- Materials Project Valid Structures: 14,530 structures
+- TOTAL MASTER COMBINED DATASET    : 38,857 unique crystal structures
+                                     (1,553,820 atomic BEC tensors across 85 elements)
+- Location                         : data/processed/BEC_Combined_Master_Deduplicated.xyz
+
+
+================================================================================
+3. 500-EPOCH EMPIRICAL BENCHMARK RESULTS
+================================================================================
+--------------------------------------------------------------------------------
+Experiment Name          | Train Graphs | Val Graphs | Test Graphs | Test MAE (e)
+--------------------------------------------------------------------------------
+Master Combined Model    | 31,085 (80%) | 3,886 (10%)| 3,886 (10%) | 0.3854 e
+Mendeley-Only Model      | 19,461 (80%) | 2,433 (10%)| 2,433 (10%) | 0.3821 e
+Materials Project Model  | 11,624 (80%) | 1,453 (10%)| 1,453 (10%) | 0.5060 e
+Cross Transfer (Mnd->MP) | 24,327 (100%)| N/A        | 14,530 (100%)| 6.8174 e
+Cross Transfer (MP->Mnd) | 14,530 (100%)| N/A        | 24,327 (100%)| 0.3842 e
+--------------------------------------------------------------------------------
+
+
+================================================================================
+4. REPOSITORY STRUCTURE & FILE ORGANIZATION
+================================================================================
+Equivar_GCNN/
+├── data/
+│   ├── raw/                              # Original raw extxyz datasets
+│   └── processed/                        # Deduplicated master dataset & model checkpoints
+├── scripts/                              # Clean production-grade python scripts
+├── outputs/
+│   ├── plots/                            # 500-epoch loss curves & parity plots
+│   └── csv_results/                      # Summary tables & data quality audits
+├── reports/
+│   └── RESEARCH_PROGRESS_AND_TECHNICAL_REPORT.txt
+└── README.md                             # Top-level repository documentation
+================================================================================

@@ -1,65 +1,38 @@
-# Equivar Evaluation Pipeline: Predicting Atomic Born Effective Charges
+# Equivar GCNN: Predicting Atomic Born Effective Charges across the Periodic Table
 
-This repository contains the evaluation pipeline for **Equivar**, an $O(3)$-equivariant graph convolutional neural network (GCNN) designed to predict tensors of atomic Born effective charges ($Z^*$) directly from 3D crystal structures. 
+This repository contains the production code and evaluation suite for **EquivarBECGNN**, an E(3)-equivariant graph neural network (GNN) built using **PyTorch Geometric (PyG)** and **e3nn** to predict 3x3 atomic Born Effective Charge (BEC) tensors directly from 3D crystal structures.
 
-Based on the research paper:  
-> **Representing Born effective charges with equivariant graph convolutional neural networks**  
+Based on the research paper:
+> **Representing Born effective charges with equivariant graph convolutional neural networks**
 > *Alex Kutana, Koji Shimizu, Satoshi Watanabe, and Ryoji Asahi* (*Scientific Reports*, 2025). [DOI: 10.1038/s41598-025-01250-5](https://doi.org/10.1038/s41598-025-01250-5)
 
 ---
 
-## Key Features
+## Repository Directory Structure
 
-* **Exact Physical Equivariance:** Utilizes spherical harmonics ($Y_{lm}$) and $O(3)$ irreducible representations ($0e \oplus 1e \oplus 2e$) to guarantee 100% rotational covariance under 3D spatial rotations.
-* **Acoustic Sum Rule (ASR):** Enforces exact charge neutrality ($\sum_i Z^*_i = \mathbf{0}$) as an automated post-processing mean shift.
-* **CPU-Optimized & PyTorch 2.x Compatible:** Includes custom TorchScript operator fallbacks, allowing fast inference on standard CPUs without requiring C++ compilation or GPU dependencies.
-
----
-
-## Inputs and Outputs
-
-* **Input:** 3D crystal structures in Extended XYZ (`extxyz`) format (`data/frames.xyz`).
-* **Pre-trained Weights:** PyTorch JIT model weights (`BM1.pt` or `BM2.pt`).
-* **Output:** $3 \times 3$ Born effective charge tensors per atom in CSV format (`data/evaluated.csv`):
-  
-  `Columns: [ids, Z11, Z12, Z13, Z21, Z22, Z23, Z31, Z32, Z33]`
+- data/raw/: Raw extxyz datasets (perovskites, ZrO2, Li3PO4, MP)
+- data/processed/: Master deduplicated dataset & model checkpoints
+- scripts/: Modular Python execution scripts
+- outputs/plots/: 500-epoch loss curves & parity plots
+- outputs/csv_results/: Benchmark tables, ASR audits & anomalous BEC lists
+- reports/: RESEARCH_PROGRESS_AND_TECHNICAL_REPORT.txt
 
 ---
 
-## Quick Start / How to Run
+## 500-Epoch Empirical Benchmark Results
 
-### 1. Clone & Install
-```bash
-git clone https://github.com/Vibha-1729/Equivar_GCNN.git
-cd Equivar_GCNN/equivar_eval
-pip install -e .
-```
+All models were trained for 500 full epochs using an E(3)-equivariant Graph Neural Network with l <= 2 spherical harmonics (0e+1o+2e irreps), 32 Gaussian Cosine Envelope Radial Basis functions (r_c = 3.0 A), AdamW optimizer, and L1-norm MAE loss.
 
-### 2. Prepare Data & Configuration
-Place your target crystal structure (`frames.xyz`) and model weights (`BM1.pt`) inside the `data/` directory, and update `config.yaml`:
-
-```yaml
-data_dir: "data"
-saved_model_path: "data/BM1.pt"
-ouput_path: "data/evaluated.csv"
-```
-
-### 3. Run Predictions
-```bash
-python -m equivar_eval.scripts.evaluate
-```
+| Experiment Description | Train Split | Validation Split | Test Split | Final Test MAE (e) |
+| :--- | :---: | :---: | :---: | :---: |
+| **500-Epoch Master Combined Model** | 31,085 (80%) | 3,886 (10%) | 3,886 (10%) | **0.3854 e** |
+| **500-Epoch Mendeley-Only Model** | 19,461 (80%) | 2,433 (10%) | 2,433 (10%) | **0.3821 e** |
+| **500-Epoch MP-Only Model** | 11,624 (80%) | 1,453 (10%) | 1,453 (10%) | **0.5060 e** |
+| **Cross-Transfer: Mendeley -> MP** | 24,327 (100%) | N/A | 14,530 (100%) | **6.8174 e** |
+| **Cross-Transfer: MP -> Mendeley** | 14,530 (100%) | N/A | 24,327 (100%) | **0.3842 e** |
 
 ---
 
-## Reference & Citation
-If you use this code or model in your research, please cite the original study:
-```bibtex
-@article{kutana2025representing,
-  title={Representing Born effective charges with equivariant graph convolutional neural networks},
-  author={Kutana, Alex and Shimizu, Koji and Watanabe, Satoshi and Asahi, Ryoji},
-  journal={Scientific Reports},
-  volume={15},
-  year={2025},
-  publisher={Nature Publishing Group}
-}
-```
+## Complete Technical Report
+For full details on methodology, ASR projection layers, and empirical benchmark breakdowns, refer to:
+reports/RESEARCH_PROGRESS_AND_TECHNICAL_REPORT.txt
