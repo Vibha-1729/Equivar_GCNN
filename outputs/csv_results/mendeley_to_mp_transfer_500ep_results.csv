@@ -1,0 +1,2 @@
+Experiment,Train_Graphs,Val_Graphs,Test_MP_Graphs,Final_Train_Mendeley_MAE_e,Final_Val_Mendeley_MAE_e,Final_ZeroShot_MP_MAE_e,Loss_Plot
+500-Epoch Transfer (Train Mendeley -> Test MP),19461,2433,14530,0.38284289402429056,0.3781101707563545,2.8667471557835094,loss_curve_mendeley_to_mp_500ep_verified.png
