@@ -1,0 +1,2 @@
+Experiment,Train_Graphs,Val_Graphs,Test_Graphs,Final_Train_MAE_e,Final_Val_MAE_e,Final_Test_MAE_e,Final_Test_RMSE_e,R2_Score,Accuracy_Percent,Model_Weights,Loss_Plot
+500-Epoch JARVIS-Alone Model,21172,2646,2647,0.7177073197217964,0.7287278970082601,0.7279418,2.128467,0.32415068,35.71765,outputs/models/equivar_jarvis_500ep.pt,outputs/plots/loss_curve_jarvis_500ep.png

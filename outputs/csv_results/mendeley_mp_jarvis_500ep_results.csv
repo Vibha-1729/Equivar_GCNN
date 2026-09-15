@@ -1,0 +1,2 @@
+Experiment,Train_Graphs,Val_Graphs,Test_Graphs,Final_Train_MAE_e,Final_Val_MAE_e,Final_Test_MAE_e,Model_Weights,Loss_Plot
+500-Epoch Master 3-Way Model (Mendeley + MP + JARVIS),52257,6532,6533,0.47017103240618485,0.48826465541719294,0.4797997469515562,outputs/models/equivar_master_mendeley_mp_jarvis_500ep.pt,outputs/plots/loss_curve_mendeley_mp_jarvis_500ep.png
