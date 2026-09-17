@@ -14,6 +14,8 @@ dist/
 # Logs & temp
 *.log
 gnome_test.csv
+GNoME_insulators_filtered.csv
+data/processed/*.csv
 scratch/
 .system_generated/
 
