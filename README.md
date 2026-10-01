@@ -11,8 +11,6 @@ This repository contains the production codebase, curated datasets, 500-epoch de
 
 ## 📊 Retrained 500-Epoch Production Benchmarks
 
-All models were trained for **500 full epochs** using an E(3)-equivariant Graph Neural Network with spherical harmonics up to $\ell = 2$ (`0e+1o+2e` irreps), 32 Gaussian Cosine Envelope Radial Basis functions ($r_c = 5.0\text{ \AA}$), AdamW optimizer, Cosine Annealing learning rate schedule, and Acoustic Sum Rule (ASR) zero-charge drift symmetry enforcement.
-
 All models were trained for **500 full epochs** using an E(3)-equivariant Graph Neural Network with spherical harmonics up to $\ell = 2$ (`0e+1o+2e` irreps), 32 Gaussian Cosine Envelope Radial Basis functions ($r_c = 5.0\text{ \AA}$), AdamW optimizer, Cosine Annealing learning rate schedule, and Acoustic Sum Rule (ASR) zero-charge drift symmetry enforcement:
 
 | Experiment Benchmark | Crystals | Atoms | Diagonal MAE ($e$) | Off-Diagonal MAE ($e$) | Trace MAE ($e$) | **Overall Test MAE ($e$)** |
