@@ -1,0 +1,4 @@
+split,num_structures,num_atoms,overall_mae_e,diagonal_mae_e,offdiagonal_mae_e,trace_mae_e
+train,3442,51029,0.30713,0.59892,0.16123,0.46273
+val,430,6288,0.32797,0.65926,0.16233,0.5265
+test,431,6199,0.32327,0.64811,0.16085,0.51613
