@@ -40,7 +40,18 @@ The trained Unified Master Model was deployed on **Google DeepMind's GNoME datas
 
 ---
 
-## 📁 Repository Production Scripts
+## 📁 Repository Directory Structure
+
+```
+.
+├── combined_master/        # Unified 3-way master benchmark, diversity metrics & verified anomaly catalogs
+├── materials_project/      # Materials Project baseline summaries, atomic positions & model checkpoint
+├── mendeley_oxides/        # Mendeley Oxides baseline summaries & model checkpoint
+├── gnome_discovery/        # GNoME semiconductor 3x3 predictions & verified candidate discoveries
+└── scripts/                # Production training, screening, and inference scripts
+```
+
+## 🛠️ Production Scripts
 
 ```
 scripts/

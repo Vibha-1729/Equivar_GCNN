@@ -19,11 +19,11 @@ Email_to_Prof_*.txt
 data/
 scripts_archive/
 materials_project_dataset/
-gnome/stable_materials_summary.csv
+gnome_discovery/stable_materials_summary.csv
 
 # Allow small JSON maps
 *.json
-!mp/phonon_to_mp_id_map.json
+!materials_project/phonon_to_mp_id_map.json
 
 # Logs & temp
 *.log
