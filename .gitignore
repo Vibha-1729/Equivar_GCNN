@@ -7,11 +7,10 @@ __pycache__/
 build/
 dist/
 
-# Large Datasets, Raw Files & Archives (> 50MB)
+# Large Datasets, Raw Files & Archives (> 100MB)
 *.xyz
 *.zip
 *.tar.gz
-*.json
 *.pt
 !**/models/*.pt
 *.pptx
@@ -21,7 +20,10 @@ data/
 scripts_archive/
 materials_project_dataset/
 gnome/stable_materials_summary.csv
-gnome/gnome_semiconductors_full_3x3_predictions_full_3x3_15k.csv
+
+# Allow small JSON maps
+*.json
+!mp/phonon_to_mp_id_map.json
 
 # Logs & temp
 *.log
