@@ -7,9 +7,16 @@ __pycache__/
 build/
 dist/
 
-# Large Datasets & Environment
+# Large Datasets, Checkpoints & Environment
 *.xyz
+*.pt
+*.zip
+*.tar.gz
+*.json
 .env
+materials_project_dataset/
+data/
+scripts_archive/
 
 # Logs & temp
 *.log
