@@ -1,0 +1,6 @@
+Metric,Value
+Semiconductors Evaluated,1585
+Semiconductors with Genuine Giant Anomaly (|Delta|>=2e),605
+Giant Anomaly Percentage (Verified),38.17%
+Semiconductors with Genuine Moderate Anomaly (|Delta|>=1e),1300
+Moderate Anomaly Percentage (Verified),82.02%

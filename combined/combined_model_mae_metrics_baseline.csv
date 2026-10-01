@@ -1,0 +1,7 @@
+subset,split,num_structures,num_atoms,overall_mae_e,diagonal_mae_e,offdiagonal_mae_e,trace_mae_e
+Overall (train),train,37834,1452846,0.24462,0.2873,0.22329,0.13196
+Overall (val),val,4806,180535,0.24537,0.29461,0.22075,0.1404
+Overall (test),test,4812,182608,0.25431,0.30794,0.2275,0.15291
+Test Set - MATERIALS_PROJECT,test,1460,24106,0.34144,0.59648,0.21393,0.39174
+Test Set - MENDELEY,test,2918,151985,0.23424,0.23943,0.23165,0.09083
+Test Set - JARVIS,test,434,6517,0.39998,0.83844,0.18075,0.71719

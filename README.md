@@ -13,14 +13,14 @@ This repository contains the production codebase, curated datasets, 500-epoch de
 
 All models were trained for **500 full epochs** using an E(3)-equivariant Graph Neural Network with spherical harmonics up to $\ell = 2$ (`0e+1o+2e` irreps), 32 Gaussian Cosine Envelope Radial Basis functions ($r_c = 5.0\text{ \AA}$), AdamW optimizer, Cosine Annealing learning rate schedule, and Acoustic Sum Rule (ASR) zero-charge drift symmetry enforcement.
 
-Following the equivariant change-of-basis matrix correction and smooth 5.0 Å envelope projection, test errors dropped substantially across all benchmarks:
+All models were trained for **500 full epochs** using an E(3)-equivariant Graph Neural Network with spherical harmonics up to $\ell = 2$ (`0e+1o+2e` irreps), 32 Gaussian Cosine Envelope Radial Basis functions ($r_c = 5.0\text{ \AA}$), AdamW optimizer, Cosine Annealing learning rate schedule, and Acoustic Sum Rule (ASR) zero-charge drift symmetry enforcement:
 
-| Experiment Benchmark | Crystals | Atoms | Diagonal MAE ($e$) | Off-Diagonal MAE ($e$) | Trace MAE ($e$) | **Overall Test MAE ($e$)** | Previous Repo MAE ($e$) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Unified Master 3-Way Model (MP + Mendeley + JARVIS)** | **48,186** | **1,815,989** | **`0.3079`** | **`0.2275`** | **`0.1529`** | **`0.2543`** | `0.4798` (-47%) |
-| **Mendeley Oxides Baseline** | 29,318 | 1,512,011 | **`0.2360`** | **`0.2240`** | **`0.0831`** | **`0.2280`** | `0.3821` (-40%) |
-| **Materials Project Baseline** | 13,436 | 240,156 | **`0.6158`** | **`0.1885`** | **`0.4617`** | **`0.3309`** | `0.5060` (-35%) |
-| **JARVIS-Alone Baseline (Retrained)** | 4,303 | 63,516 | **`0.6481`** | **`0.1609`** | **`0.5161`** | **`0.3233`** | `0.7279` (-56%) |
+| Experiment Benchmark | Crystals | Atoms | Diagonal MAE ($e$) | Off-Diagonal MAE ($e$) | Trace MAE ($e$) | **Overall Test MAE ($e$)** |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Unified Master 3-Way Model (MP + Mendeley + JARVIS)** | **48,186** | **1,815,989** | **`0.3079`** | **`0.2275`** | **`0.1529`** | **`0.2543`** |
+| **Mendeley Oxides Baseline** | 29,318 | 1,512,011 | **`0.2360`** | **`0.2240`** | **`0.0831`** | **`0.2280`** |
+| **Materials Project Baseline** | 13,436 | 240,156 | **`0.6158`** | **`0.1885`** | **`0.4617`** | **`0.3309`** |
+| **JARVIS-Alone Baseline** | 4,303 | 63,516 | **`0.6481`** | **`0.1609`** | **`0.5161`** | **`0.3233`** |
 
 ---
 

@@ -1,0 +1,11 @@
+Metric,Value
+Total Structures,48186
+Total Unique Elements,86
+Chemical Shannon Entropy (bits),2.5081
+Normalized Chemical Diversity,0.3903
+Space Groups Represented,202 / 230
+Space Group Shannon Entropy (bits),2.9908
+Normalized Space Group Diversity,0.3812
+Crystal Systems Represented,7 / 7
+Crystal System Shannon Entropy (bits),1.7604
+Composite Dataset Diversity Index (CDI),0.434

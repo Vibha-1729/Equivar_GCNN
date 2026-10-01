@@ -1,0 +1,5 @@
+split_name,split_type,num_crystals,num_atoms,overall_bec_tensor_mae_e,diagonal_mae_e,off_diagonal_mae_e,isotropic_trace_mae_e,best_epoch,best_val_mae_e
+Train Set,train,10921,192771,0.30609,0.537,0.19063,0.35657,332,0.32311
+Val Set,val,1446,23895,0.32311,0.60473,0.1823,0.43593,332,0.32311
+Test Set,test,1438,23490,0.33093,0.61579,0.18851,0.46169,332,0.32311
+Overall Full Dataset,overall,13436,240156,0.31021,0.55145,0.18959,0.37475,332,0.32311

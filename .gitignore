@@ -7,16 +7,21 @@ __pycache__/
 build/
 dist/
 
-# Large Datasets, Checkpoints & Environment
+# Large Datasets, Raw Files & Archives (> 50MB)
 *.xyz
-*.pt
 *.zip
 *.tar.gz
 *.json
+*.pt
+!**/models/*.pt
+*.pptx
+Email_to_Prof_*.txt
 .env
-materials_project_dataset/
 data/
 scripts_archive/
+materials_project_dataset/
+gnome/stable_materials_summary.csv
+gnome/gnome_semiconductors_full_3x3_predictions_full_3x3_15k.csv
 
 # Logs & temp
 *.log
