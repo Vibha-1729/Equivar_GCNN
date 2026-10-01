@@ -17,7 +17,7 @@ All models were trained for **500 full epochs** using an E(3)-equivariant Graph 
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | **Unified Master 3-Way Model (MP + Mendeley + JARVIS)** | **48,186** | **1,815,989** | **`0.3079`** | **`0.2275`** | **`0.1529`** | **`0.2543`** | [`loss_curve_combined.png`](combined_master/plots/loss_curve_combined_500ep_baseline.png) |
 | **Mendeley Oxides Baseline** | 29,318 | 1,512,011 | **`0.2360`** | **`0.2240`** | **`0.0831`** | **`0.2280`** | [`loss_curve_mendeley.png`](mendeley_oxides/plots/loss_curve_mendeley_500ep_baseline.png) |
-| **Materials Project Baseline** | 13,436 | 240,156 | **`0.6158`** | **`0.1885`** | **`0.4617`** | **`0.3309`** | [`loss_curve_mp.png`](materials_project/plots/loss_curve_mp_500ep.png) |
+| **Materials Project Baseline** | 13,436 | 240,156 | **`0.6158`** | **`0.1885`** | **`0.4617`** | **`0.3309`** | [`loss_curve_mp.png`](materials_project/plots/loss_curve_mp_500ep_baseline.png) |
 | **JARVIS-Alone Baseline** | 4,303 | 63,516 | **`0.6481`** | **`0.1609`** | **`0.5161`** | **`0.3233`** | [`loss_curve_jarvis.png`](jarvis/plots/loss_curve_jarvis_500ep_baseline.png) |
 
 ---
