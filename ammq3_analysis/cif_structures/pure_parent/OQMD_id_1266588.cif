@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_EuYCuSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.93521475
+_cell_length_b   6.93521475
+_cell_length_c   10.56663400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.16649924
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuYCuSe3
+_chemical_formula_sum   'Eu2 Y2 Cu2 Se6'
+_cell_volume   282.97052977
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.52906580  0.47093420  0.25000000  1
+  Cu  Cu1  1  0.47093420  0.52906580  0.75000000  1
+  Eu  Eu2  1  0.24661867  0.75338133  0.25000000  1
+  Eu  Eu3  1  0.75338133  0.24661867  0.75000000  1
+  Se  Se4  1  0.64333129  0.35666871  0.06794425  1
+  Se  Se5  1  0.91729552  0.08270448  0.25000000  1
+  Se  Se6  1  0.64333129  0.35666871  0.43205575  1
+  Se  Se7  1  0.35666871  0.64333129  0.56794425  1
+  Se  Se8  1  0.08270448  0.91729552  0.75000000  1
+  Se  Se9  1  0.35666871  0.64333129  0.93205575  1
+  Y  Y10  1  0.00000000  0.00000000  0.00000000  1
+  Y  Y11  1  0.00000000  0.00000000  0.50000000  1

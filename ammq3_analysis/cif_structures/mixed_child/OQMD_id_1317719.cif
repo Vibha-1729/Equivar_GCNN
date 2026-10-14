@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_EuErCuSe2S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.86098155
+_cell_length_b   6.86098155
+_cell_length_c   10.17972979
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.24693834
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuErCuSe2S
+_chemical_formula_sum   'Eu2 Er2 Cu2 Se4 S2'
+_cell_volume   266.24560729
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.52536594  0.47463406  0.25000000  1
+  Cu  Cu1  1  0.47463406  0.52536594  0.75000000  1
+  Er  Er2  1  0.00000000  0.00000000  0.00000000  1
+  Er  Er3  1  0.00000000  0.00000000  0.50000000  1
+  Eu  Eu4  1  0.26104702  0.73895298  0.25000000  1
+  Eu  Eu5  1  0.73895298  0.26104702  0.75000000  1
+  S  S6  1  0.92508208  0.07491792  0.25000000  1
+  S  S7  1  0.07491792  0.92508208  0.75000000  1
+  Se  Se8  1  0.64536448  0.35463552  0.06476006  1
+  Se  Se9  1  0.64536448  0.35463552  0.43523994  1
+  Se  Se10  1  0.35463552  0.64536448  0.56476006  1
+  Se  Se11  1  0.35463552  0.64536448  0.93523994  1

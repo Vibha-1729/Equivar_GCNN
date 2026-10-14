@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_EuYCuS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.63935952
+_cell_length_b   6.63935952
+_cell_length_c   10.15756400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.05860396
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuYCuS3
+_chemical_formula_sum   'Eu2 Y2 Cu2 S6'
+_cell_volume   250.00246777
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.96940786  0.03059214  0.25000000  1
+  Cu  Cu1  1  0.03059214  0.96940786  0.75000000  1
+  Eu  Eu2  1  0.24907141  0.75092859  0.25000000  1
+  Eu  Eu3  1  0.75092859  0.24907141  0.75000000  1
+  S  S4  1  0.85759560  0.14240440  0.06966060  1
+  S  S5  1  0.57911256  0.42088744  0.25000000  1
+  S  S6  1  0.85759560  0.14240440  0.43033940  1
+  S  S7  1  0.14240440  0.85759560  0.56966060  1
+  S  S8  1  0.42088744  0.57911256  0.75000000  1
+  S  S9  1  0.14240440  0.85759560  0.93033940  1
+  Y  Y10  1  0.50000000  0.50000000  0.00000000  1
+  Y  Y11  1  0.50000000  0.50000000  0.50000000  1

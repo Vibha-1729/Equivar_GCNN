@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KRbSiSe2S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79234722
+_cell_length_b   7.79234722
+_cell_length_c   10.03821727
+_cell_angle_alpha   122.78983485
+_cell_angle_beta   122.78983485
+_cell_angle_gamma   53.14324090
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRbSiSe2S
+_chemical_formula_sum   'K2 Rb2 Si2 Se4 S2'
+_cell_volume   388.13230380
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.58566609  0.58566609  0.36986036  1
+  K  K1  1  0.41433391  0.41433391  0.63013964  1
+  Rb  Rb2  1  0.80431025  0.80431025  0.18668390  1
+  Rb  Rb3  1  0.19568975  0.19568975  0.81331610  1
+  S  S4  1  0.76574425  0.23425575  0.00000000  1
+  S  S5  1  0.23425575  0.76574425  0.00000000  1
+  Se  Se6  1  0.29605171  0.29605171  0.22887826  1
+  Se  Se7  1  0.11413773  0.11413773  0.39826408  1
+  Se  Se8  1  0.88586227  0.88586227  0.60173592  1
+  Se  Se9  1  0.70394829  0.70394829  0.77112174  1
+  Si  Si10  1  0.11411072  0.11411072  0.17506255  1
+  Si  Si11  1  0.88588928  0.88588928  0.82493745  1

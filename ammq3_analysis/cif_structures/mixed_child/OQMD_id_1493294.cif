@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KHfTePdSeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.52641025
+_cell_length_b   3.75324219
+_cell_length_c   10.31614171
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   112.39148777
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KHfTePdSeS
+_chemical_formula_sum   'K2 Hf2 Te2 Pd2 Se2 S2'
+_cell_volume   305.24266860
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.68163676  0.75000000  0.15340366  1
+  Hf  Hf1  1  0.31836324  0.25000000  0.84659634  1
+  K  K2  1  0.23849306  0.75000000  0.23507412  1
+  K  K3  1  0.76150694  0.25000000  0.76492588  1
+  Pd  Pd4  1  0.90821845  0.25000000  0.38449124  1
+  Pd  Pd5  1  0.09178155  0.75000000  0.61550876  1
+  S  S6  1  0.45955227  0.25000000  0.12053313  1
+  S  S7  1  0.54044773  0.75000000  0.87946687  1
+  Se  Se8  1  0.89449478  0.25000000  0.13161473  1
+  Se  Se9  1  0.10550522  0.75000000  0.86838527  1
+  Te  Te10  1  0.72972899  0.75000000  0.45036439  1
+  Te  Te11  1  0.27027101  0.25000000  0.54963561  1

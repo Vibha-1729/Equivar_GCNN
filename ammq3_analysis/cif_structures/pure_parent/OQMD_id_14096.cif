@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BaLaCuSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.22461300
+_cell_length_b   4.30594100
+_cell_length_c   14.00545400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLaCuSe3
+_chemical_formula_sum   'Ba4 La4 Cu4 Se12'
+_cell_volume   676.91890413
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.27174373  0.25000000  0.00412828  1
+  Ba  Ba1  1  0.77174373  0.25000000  0.49587172  1
+  Ba  Ba2  1  0.22825627  0.75000000  0.50412828  1
+  Ba  Ba3  1  0.72825627  0.75000000  0.99587172  1
+  Cu  Cu4  1  0.74145169  0.25000000  0.21671547  1
+  Cu  Cu5  1  0.24145169  0.25000000  0.28328453  1
+  Cu  Cu6  1  0.75854831  0.75000000  0.71671547  1
+  Cu  Cu7  1  0.25854831  0.75000000  0.78328453  1
+  La  La8  1  0.99025225  0.75000000  0.24025415  1
+  La  La9  1  0.49025225  0.75000000  0.25974585  1
+  La  La10  1  0.50974775  0.25000000  0.74025415  1
+  La  La11  1  0.00974775  0.25000000  0.75974585  1
+  Se  Se12  1  0.91204821  0.25000000  0.10532743  1
+  Se  Se13  1  0.55779547  0.25000000  0.11784327  1
+  Se  Se14  1  0.24442163  0.75000000  0.18156130  1
+  Se  Se15  1  0.74442163  0.75000000  0.31843870  1
+  Se  Se16  1  0.05779547  0.25000000  0.38215673  1
+  Se  Se17  1  0.41204821  0.25000000  0.39467257  1
+  Se  Se18  1  0.58795179  0.75000000  0.60532743  1
+  Se  Se19  1  0.94220453  0.75000000  0.61784327  1
+  Se  Se20  1  0.25557837  0.25000000  0.68156130  1
+  Se  Se21  1  0.75557837  0.25000000  0.81843870  1
+  Se  Se22  1  0.44220453  0.75000000  0.88215673  1
+  Se  Se23  1  0.08795179  0.75000000  0.89467257  1

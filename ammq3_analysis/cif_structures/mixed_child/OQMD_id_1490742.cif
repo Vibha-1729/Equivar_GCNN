@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KPAuSe2S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15656289
+_cell_length_b   7.15656289
+_cell_length_c   8.22134600
+_cell_angle_alpha   111.41445796
+_cell_angle_beta   111.41445796
+_cell_angle_gamma   61.06137753
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KPAuSe2S
+_chemical_formula_sum   'K2 P2 Au2 Se4 S2'
+_cell_volume   333.75055334
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Au  Au0  1  0.74003249  0.25996751  0.00000000  1
+  Au  Au1  1  0.25996751  0.74003249  0.00000000  1
+  K  K2  1  0.29329405  0.29329405  0.23780907  1
+  K  K3  1  0.70670595  0.70670595  0.76219093  1
+  P  P4  1  0.97438139  0.97438139  0.34892711  1
+  P  P5  1  0.02561861  0.02561861  0.65107289  1
+  S  S6  1  0.79778508  0.79778508  0.20943362  1
+  S  S7  1  0.20221492  0.20221492  0.79056638  1
+  Se  Se8  1  0.81670544  0.32704902  0.32610884  1
+  Se  Se9  1  0.32704902  0.81670544  0.32610884  1
+  Se  Se10  1  0.67295098  0.18329456  0.67389116  1
+  Se  Se11  1  0.18329456  0.67295098  0.67389116  1

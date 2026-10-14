@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KRbGeSeS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79489250
+_cell_length_b   7.79489250
+_cell_length_c   9.97194687
+_cell_angle_alpha   122.39925831
+_cell_angle_beta   122.39925831
+_cell_angle_gamma   52.93969100
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRbGeSeS2
+_chemical_formula_sum   'K2 Rb2 Ge2 Se2 S4'
+_cell_volume   387.32649343
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.38112449  0.38112449  0.31637470  1
+  Ge  Ge1  1  0.61887551  0.61887551  0.68362530  1
+  K  K2  1  0.90700552  0.90700552  0.12757932  1
+  K  K3  1  0.09299448  0.09299448  0.87242068  1
+  Rb  Rb4  1  0.68244320  0.68244320  0.30581172  1
+  Rb  Rb5  1  0.31755680  0.31755680  0.69418828  1
+  S  S6  1  0.38193180  0.38193180  0.09875083  1
+  S  S7  1  0.74474479  0.25525521  0.50000000  1
+  S  S8  1  0.25525521  0.74474479  0.50000000  1
+  S  S9  1  0.61806820  0.61806820  0.90124917  1
+  Se  Se10  1  0.19563418  0.19563418  0.26802385  1
+  Se  Se11  1  0.80436582  0.80436582  0.73197615  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsTlSiSeS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.84622016
+_cell_length_b   7.84622016
+_cell_length_c   10.18686738
+_cell_angle_alpha   123.25529517
+_cell_angle_beta   123.25529517
+_cell_angle_gamma   53.45089628
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsTlSiSeS2
+_chemical_formula_sum   'Cs2 Tl2 Si2 Se2 S4'
+_cell_volume   397.67455892
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.71112639  0.71112639  0.33009557  1
+  Cs  Cs1  1  0.28887361  0.28887361  0.66990443  1
+  S  S2  1  0.21389068  0.21389068  0.26252339  1
+  S  S3  1  0.72987370  0.27012630  0.50000000  1
+  S  S4  1  0.27012630  0.72987370  0.50000000  1
+  S  S5  1  0.78610932  0.78610932  0.73747661  1
+  Se  Se6  1  0.38344740  0.38344740  0.10061830  1
+  Se  Se7  1  0.61655260  0.61655260  0.89938170  1
+  Si  Si8  1  0.38721012  0.38721012  0.32552518  1
+  Si  Si9  1  0.61278988  0.61278988  0.67447482  1
+  Tl  Tl10  1  0.89571691  0.89571691  0.09637996  1
+  Tl  Tl11  1  0.10428309  0.10428309  0.90362004  1

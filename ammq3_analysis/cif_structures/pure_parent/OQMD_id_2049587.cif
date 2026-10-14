@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BaPrCuS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.68964983
+_cell_length_b   4.11760377
+_cell_length_c   13.57291048
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaPrCuS3
+_chemical_formula_sum   'Ba4 Pr4 Cu4 S12'
+_cell_volume   597.42173203
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.26731441  0.25000000  0.00570641  1
+  Ba  Ba1  1  0.76731441  0.25000000  0.49429359  1
+  Ba  Ba2  1  0.23268559  0.75000000  0.50570641  1
+  Ba  Ba3  1  0.73268559  0.75000000  0.99429359  1
+  Cu  Cu4  1  0.74102870  0.25000000  0.21628616  1
+  Cu  Cu5  1  0.24102870  0.25000000  0.28371384  1
+  Cu  Cu6  1  0.75897130  0.75000000  0.71628616  1
+  Cu  Cu7  1  0.25897130  0.75000000  0.78371384  1
+  Pr  Pr8  1  0.99097140  0.75000000  0.24239699  1
+  Pr  Pr9  1  0.49097140  0.75000000  0.25760301  1
+  Pr  Pr10  1  0.50902860  0.25000000  0.74239699  1
+  Pr  Pr11  1  0.00902860  0.25000000  0.75760301  1
+  S  S12  1  0.91389498  0.25000000  0.11043487  1
+  S  S13  1  0.55969161  0.25000000  0.11882585  1
+  S  S14  1  0.24443714  0.75000000  0.18278487  1
+  S  S15  1  0.74443714  0.75000000  0.31721513  1
+  S  S16  1  0.05969161  0.25000000  0.38117415  1
+  S  S17  1  0.41389498  0.25000000  0.38956513  1
+  S  S18  1  0.58610502  0.75000000  0.61043487  1
+  S  S19  1  0.94030839  0.75000000  0.61882585  1
+  S  S20  1  0.25556286  0.25000000  0.68278487  1
+  S  S21  1  0.75556286  0.25000000  0.81721513  1
+  S  S22  1  0.44030839  0.75000000  0.88117415  1
+  S  S23  1  0.08610502  0.75000000  0.88956513  1

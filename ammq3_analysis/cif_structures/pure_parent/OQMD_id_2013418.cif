@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SrErCuS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.80115543
+_cell_length_b   6.80115543
+_cell_length_c   10.13052917
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.40899430
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrErCuS3
+_chemical_formula_sum   'Sr2 Er2 Cu2 S6'
+_cell_volume   259.25516927
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.47131154  0.52868846  0.25000000  1
+  Cu  Cu1  1  0.52868846  0.47131154  0.75000000  1
+  Er  Er2  1  0.00000000  0.00000000  0.00000000  1
+  Er  Er3  1  0.00000000  0.00000000  0.50000000  1
+  S  S4  1  0.36379865  0.63620135  0.06596690  1
+  S  S5  1  0.07560091  0.92439909  0.25000000  1
+  S  S6  1  0.36379865  0.63620135  0.43403310  1
+  S  S7  1  0.63620135  0.36379865  0.56596690  1
+  S  S8  1  0.92439909  0.07560091  0.75000000  1
+  S  S9  1  0.63620135  0.36379865  0.93403310  1
+  Sr  Sr10  1  0.74785798  0.25214202  0.25000000  1
+  Sr  Sr11  1  0.25214202  0.74785798  0.75000000  1

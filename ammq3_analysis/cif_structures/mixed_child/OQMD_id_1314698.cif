@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaLaAuSe2S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.42995710
+_cell_length_b   7.42995710
+_cell_length_c   10.86831767
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.18227249
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLaAuSe2S
+_chemical_formula_sum   'Ba2 La2 Au2 Se4 S2'
+_cell_volume   333.91907558
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Au  Au0  1  0.53039353  0.46960647  0.25000000  1
+  Au  Au1  1  0.46960647  0.53039353  0.75000000  1
+  Ba  Ba2  1  0.26021100  0.73978900  0.25000000  1
+  Ba  Ba3  1  0.73978900  0.26021100  0.75000000  1
+  La  La4  1  0.00000000  0.00000000  0.00000000  1
+  La  La5  1  0.00000000  0.00000000  0.50000000  1
+  S  S6  1  0.92566698  0.07433302  0.25000000  1
+  S  S7  1  0.07433302  0.92566698  0.75000000  1
+  Se  Se8  1  0.64440444  0.35559556  0.05870999  1
+  Se  Se9  1  0.64440444  0.35559556  0.44129001  1
+  Se  Se10  1  0.35559556  0.64440444  0.55870999  1
+  Se  Se11  1  0.35559556  0.64440444  0.94129001  1

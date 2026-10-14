@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaNdAgTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.94693305
+_cell_length_b   7.94693305
+_cell_length_c   11.71122700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.51113480
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNdAgTe3
+_chemical_formula_sum   'Ba2 Nd2 Ag2 Te6'
+_cell_volume   408.09705645
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.96852461  0.03147539  0.25000000  1
+  Ag  Ag1  1  0.03147539  0.96852461  0.75000000  1
+  Ba  Ba2  1  0.25393135  0.74606865  0.25000000  1
+  Ba  Ba3  1  0.74606865  0.25393135  0.75000000  1
+  Nd  Nd4  1  0.50000000  0.50000000  0.00000000  1
+  Nd  Nd5  1  0.50000000  0.50000000  0.50000000  1
+  Te  Te6  1  0.85837646  0.14162354  0.05606616  1
+  Te  Te7  1  0.58106029  0.41893971  0.25000000  1
+  Te  Te8  1  0.85837646  0.14162354  0.44393384  1
+  Te  Te9  1  0.14162354  0.85837646  0.55606616  1
+  Te  Te10  1  0.41893971  0.58106029  0.75000000  1
+  Te  Te11  1  0.14162354  0.85837646  0.94393384  1

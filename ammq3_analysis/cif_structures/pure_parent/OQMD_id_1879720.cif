@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_PuTlCuSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.62964846
+_cell_length_b   7.62964846
+_cell_length_c   10.64658447
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   148.76579854
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PuTlCuSe3
+_chemical_formula_sum   'Pu2 Tl2 Cu2 Se6'
+_cell_volume   321.36571099
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.53291783  0.46708217  0.25000000  1
+  Cu  Cu1  1  0.46708217  0.53291783  0.75000000  1
+  Pu  Pu2  1  0.00000000  0.00000000  0.00000000  1
+  Pu  Pu3  1  0.00000000  0.00000000  0.50000000  1
+  Se  Se4  1  0.62575628  0.37424372  0.06102401  1
+  Se  Se5  1  0.93474464  0.06525536  0.25000000  1
+  Se  Se6  1  0.62575628  0.37424372  0.43897599  1
+  Se  Se7  1  0.37424372  0.62575628  0.56102401  1
+  Se  Se8  1  0.06525536  0.93474464  0.75000000  1
+  Se  Se9  1  0.37424372  0.62575628  0.93897599  1
+  Tl  Tl10  1  0.24771097  0.75228903  0.25000000  1
+  Tl  Tl11  1  0.75228903  0.24771097  0.75000000  1

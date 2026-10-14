@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbTlSiSeS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.62195073
+_cell_length_b   7.62195073
+_cell_length_c   9.85298688
+_cell_angle_alpha   122.09058170
+_cell_angle_beta   122.09058170
+_cell_angle_gamma   53.54363535
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbTlSiSeS2
+_chemical_formula_sum   'Rb2 Tl2 Si2 Se2 S4'
+_cell_volume   370.01036294
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.79536506  0.79536506  0.17368456  1
+  Rb  Rb1  1  0.20463494  0.20463494  0.82631544  1
+  S  S2  1  0.76273749  0.23726251  0.00000000  1
+  S  S3  1  0.23726251  0.76273749  0.00000000  1
+  S  S4  1  0.28775544  0.28775544  0.22984724  1
+  S  S5  1  0.71224456  0.71224456  0.77015276  1
+  Se  Se6  1  0.11507690  0.11507690  0.40467844  1
+  Se  Se7  1  0.88492310  0.88492310  0.59532156  1
+  Si  Si8  1  0.11290725  0.11290725  0.17400152  1
+  Si  Si9  1  0.88709275  0.88709275  0.82599848  1
+  Tl  Tl10  1  0.59871731  0.59871731  0.39919022  1
+  Tl  Tl11  1  0.40128269  0.40128269  0.60080978  1

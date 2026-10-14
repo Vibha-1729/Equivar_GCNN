@@ -1,0 +1,8 @@
+Crystal System,Total Crystals,Polar Crystals,Non-Polar Crystals,Polar %,Giant Anomalous (|Δ| >= 2.0e),Giant %,Giant in Polar,Giant in Non-Polar,Moderate Anomalous (|Δ| >= 1.0e),Moderate %
+Cubic,3145,0,3145,0.0,767,24.39,0,767,1644,52.3
+Tetragonal,1805,91,1714,5.0,361,20.0,15,346,1041,57.7
+Orthorhombic,3281,738,2543,22.5,641,19.54,189,452,1933,58.9
+Hexagonal,1013,330,683,32.6,161,15.89,37,124,496,49.0
+Trigonal,2567,1031,1536,40.2,615,23.96,314,301,1494,58.2
+Monoclinic,3277,1429,1848,43.6,845,25.79,486,359,2178,66.5
+Triclinic,31991,31552,439,98.6,24033,75.12,23894,139,30413,95.1
