@@ -5,13 +5,13 @@
 [![e3nn Equivariant GNN](https://img.shields.io/badge/e3nn-Equivariant%20GNN-purple.svg)](https://e3nn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This repository contains the production codebase, curated datasets, 500-epoch deep learning benchmarks, and screening pipelines for **EquivarBECGNN**, an E(3)-equivariant graph neural network built with **PyTorch Geometric (PyG)** and **e3nn** to predict full $3 \times 3$ atomic Born Effective Charge ($Z^*_{ij}$) tensors directly from 3D crystal structures.
+This repository contains the production codebase, curated datasets, 500-epoch deep learning benchmarks, and high-throughput screening pipelines for **EquivarBECGNN**, an $E(3)$-equivariant graph neural network built with **PyTorch Geometric (PyG)** and **e3nn** to predict full $3 \times 3$ atomic Born Effective Charge ($Z^*_{ij}$) tensors directly from 3D crystal structures.
 
 ---
 
 ## 📊 Retrained 500-Epoch Production Benchmarks
 
-All models were trained for **500 full epochs** using an E(3)-equivariant Graph Neural Network with spherical harmonics up to $\ell = 2$ (`0e+1o+2e` irreps), 32 Gaussian Cosine Envelope Radial Basis functions ($r_c = 5.0\text{ \AA}$), AdamW optimizer, Cosine Annealing learning rate schedule, and Acoustic Sum Rule (ASR) zero-charge drift symmetry enforcement:
+All models were trained for **500 full epochs** using an $E(3)$-equivariant Graph Neural Network with spherical harmonics up to $\ell = 2$ (`0e+1o+2e` irreps), 32 Gaussian Cosine Envelope Radial Basis functions ($r_c = 5.0\text{ \AA}$), AdamW optimizer, Cosine Annealing learning rate schedule, and Acoustic Sum Rule (ASR) zero-charge drift symmetry enforcement:
 
 | Experiment Benchmark | Crystals | Atoms | Diagonal MAE ($e$) | Off-Diagonal MAE ($e$) | Trace MAE ($e$) | **Overall Test MAE ($e$)** | Loss Plot |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
@@ -22,21 +22,36 @@ All models were trained for **500 full epochs** using an E(3)-equivariant Graph 
 
 ---
 
-## 🔬 Dataset Deduplication & Crystallographic Diversity Metrics
+## 🌐 High-Throughput Screening: Dataset Constraints, Stability & Bandgap Audit
 
-1. **Cross-Dataset Deduplication**: Evaluated with `pymatgen.analysis.structure_matcher.StructureMatcher` (fractional tolerance $= 0.2$, lattice angle tolerance $= 5^\circ$). Confirmed **0 cross-dataset duplicate structures** between Materials Project, Mendeley, and JARVIS.
-2. **Symmetry Coverage**: Covers **202 out of 230 space groups** ($87.8\%$), **all 7 crystal systems**, and **86 chemical elements**.
-3. **Composite Diversity Index (CDI)**:
-   $$\text{CDI} = \frac{1}{4}\left(H_{\text{elem}} + H_{\text{spg}} + H_{\text{sys}} + \frac{N_{\text{spg}}}{230}\right) = \mathbf{0.4340}$$
+High-throughput inference of full $3 \times 3$ BEC tensors was deployed across four major datasets. Below is the exact audit of thermodynamic stability ($E_{\text{hull}} \le 0$), electronic bandgaps ($E_g > 0$), and Acoustic Sum Rule (ASR) compliance:
+
+| Dataset | Total Raw Entries | Stability Metric | Strict Hull ($E \le 0$) Count | Metastable ($E \le 0.05\text{ eV}$) | Bandgap ($E_g > 0$) Availability | Evaluated Stable Semiconductors | ASR Compliance ($\sum Z^* = 0$) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **GNoME** (Google DeepMind) | 554,054 | `Decomposition Energy Per Atom` | **544,596** (98.3%) | 544,596 (strict $\le 0$ used) | **YES** (400,460 with $E_g > 0$) | **385,490** (actinides $Z \ge 95$ removed) | **100.0%** (385,490 / 385,490) |
+| **Alexandria** (PBEsol 3D) | 4,800,000 | `e_above_hull` | **48,022** (1.0%) | **230,204** (4.8%) | **YES** (~1.5M with $E_g > 0$; ~68% metals) | **230,204** (metastable) / **48,022** (strict ground state) | **100.0%** (230,204 / 230,204) |
+| **OMat24** (Meta FAIR) | 100,544 | *Not stored in LMDB* | Mapped via Alexandria | Mapped via Alexandria | **Mapped via Alexandria parents** (7,492 semiconductors) | **99,976** (relaxed frames) / **7,492** (verified $E_g > 0$) | **100.0%** (99,976 / 99,976) |
+| **AMMQ3** (Mixed + Parents) | 227 | OQMD convex hull | 227 (100.0%) | 227 (100.0%) | **YES** (All 227 have $E_g > 0$) | **227** | **100.0%** (227 / 227) |
+
+### Key Scientific & Methodological Insights:
+1. **Origin of Negative Convex Hull in GNoME ($E_{\text{decomp}} < 0$)**: Google DeepMind defined decomposition energy relative to the *pre-existing* Materials Project hull. Novel discoveries lying below the old hull have negative decomposition energy ($E < 0$).
+2. **Absence of Negative Hull in Alexandria ($E_{\text{above hull}} \ge 0$)**: Alexandria computes the convex hull self-consistently over its own dataset. On a self-consistent convex hull, ground-state phases lie on the hull ($E = 0.000\text{ eV/atom}$); negative values are mathematically impossible.
+3. **OMat24 Bandgap Derivation**: Meta FAIR designed OMat24 for potential fitting (forces/energies) and did not record bandgap $E_g$ in the ASE LMDB. However, **100.0% of parent structures are labeled with Alexandria IDs (`agm...`)**. Cross-referencing against Alexandria shows that **7.5% (7,492 frames)** are verified semiconductors ($E_g > 0$), while **92.5% (93,051 frames)** are metallic ($E_g = 0$).
 
 ---
 
-## ⚡ High-Throughput Discovery on Google DeepMind GNoME
+## 🔍 Nominal Oxidation State Audit: Eliminating "Zero_Fallback" & Fractional Artifacts
 
-The trained Unified Master Model was deployed on **Google DeepMind's GNoME dataset** (554,054 crystal structures) streamed directly from compressed archives in GPU memory:
-- Filtered for confirmed semiconductors ($E_g > 0\,\text{eV}$ and $E_g \ne \infty$), yielding **385,895 target materials**.
-- Evaluates the **full $3 \times 3$ tensor** (all 6 off-diagonal elements, Frobenius shear norms, and dynamical asymmetry metrics).
-- Discovered verified novel giant anomalous BEC semiconductors ($|\bar{Z}^* - q_{\text{nominal}}| \ge 2.0\,e$) across gapped polar lattices.
+Anomalous Born Effective Charge is defined as $\Delta Z^* = Z^*_{\text{predicted}} - q_{\text{nominal}}$. Our automated chemical assignment audit revealed:
+
+| Dataset | Total Materials | Verified `BVAnalyzer` | `Composition_Guesses` | `Zero_Fallback` ($q_{\text{nom}} = 0$) | Genuine Anomalies (No Zero_Fallback) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **GNoME** | 385,490 | 84,584 (21.9%) | 37,651 (9.8%) | 263,255 (68.3%) | **84,620** |
+| **Alexandria** | 230,204 | 189,215 (82.2%) | 0 (0.0%) | 40,989 (17.8%) | **45,452** |
+| **OMat24** | 99,976 | 23,707 (23.7%) | 0 (0.0%) | 76,269 (76.3%) | **11,047** |
+
+* **Zero_Fallback Exclusion**: In complex intermetallics and borides (e.g. $\text{TaCuRe}$, $\text{Ho}_4\text{Al}_{18}\text{FePdPt}_4$), bond valence and composition algorithms cannot define formal valences, defaulting to $q_{\text{nominal}} = 0.0$. This artificially inflated anomalies ($|Z^* - 0| \ge 2.0e$). **Zero_Fallback materials are strictly excluded from clean parity plots and verified candidate catalogs.**
+* **Fractional Charges (5.46% in GNoME)**: Caused by formula-averaging over mixed-valence elements (e.g., $\text{Fe}^{2.67+}$ in $\text{Fe}_3\text{O}_4$) or covalent clusters (e.g., $\text{B}^{-1.5}$ in $\text{B}_6$ boride cages). Clean parity plots filter these non-integer cases to guarantee discrete integer ticks on the $x$-axis.
 
 ---
 
@@ -44,38 +59,18 @@ The trained Unified Master Model was deployed on **Google DeepMind's GNoME datas
 
 ```
 .
-├── combined_master/        # Unified 3-way master benchmark, diversity metrics & verified anomaly catalogs
-├── materials_project/      # Materials Project baseline summaries, atomic positions & model checkpoint
+├── dataset_constraints_and_stability_audit_summary.csv   # Master 3-way stability & constraints audit
+├── gnome_constraints_and_filtering_summary.csv           # GNoME filtering stage breakdown
+├── alexandria_constraints_and_filtering_summary.csv      # Alexandria filtering stage breakdown
+├── omat24_constraints_and_filtering_summary.csv          # OMat24 filtering stage breakdown
+├── combined_master/        # Unified 3-way master benchmark & verified anomaly catalogs
+├── materials_project/      # Materials Project baseline summaries & model checkpoint
 ├── mendeley_oxides/        # Mendeley Oxides baseline summaries & model checkpoint
-├── jarvis/                 # JARVIS baseline summaries, retrained model checkpoint & loss plots
-├── gnome_discovery/        # GNoME semiconductor 3x3 predictions & verified candidate discoveries
-└── scripts/                # Production training, screening, and inference scripts
-```
-
-## 🛠️ Production Scripts
-
-```
-scripts/
-├── 50_train_500ep_mp_baseline.py               # Materials Project baseline training
-├── 51_train_500ep_mendeley_baseline.py         # Mendeley Oxides baseline training
-├── 52_train_500ep_jarvis_baseline.py           # Retrained JARVIS baseline training
-├── 53_train_500ep_combined_baseline.py         # Unified 3-way combined master baseline training
-├── audit_deduplication.py                      # Pymatgen StructureMatcher cross-dataset deduplication
-├── extract_symmetry_and_diversity.py           # Space group distribution & CDI calculator
-├── parallel_compute_nominal_oxi_and_anomalous_bec.py  # Parallel BVAnalyzer oxidation states & BEC screener
-└── run_gnome_all_components_discovery.py       # High-throughput full 3x3 GNoME tensor discovery
-```
-
----
-
-## 🚀 Execution Guide
-
-```bash
-# Train Unified Master Baseline (48,186 crystals)
-python scripts/53_train_500ep_combined_baseline.py
-
-# Run Full 3x3 BEC Tensor Discovery on GNoME Semiconductors
-python scripts/run_gnome_all_components_discovery.py --batch-size 15000 --out-suffix verified
+├── jarvis/                 # JARVIS baseline summaries & retrained model checkpoint
+├── gnome_discovery/        # GNoME semiconductor 3x3 predictions, parity plots & candidate discoveries
+├── alexandria/             # Alexandria semiconductor 3x3 predictions & parity plots
+├── omat24/                 # OMat24 relaxed trajectory 3x3 predictions & parity plots
+└── scripts/                # Clean production training, screening, and plotting scripts
 ```
 
 ---
