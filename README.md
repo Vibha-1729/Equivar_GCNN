@@ -42,7 +42,7 @@ High-throughput inference of full $3 \times 3$ BEC tensors was deployed across f
 
 ## 🔍 Nominal Oxidation State Audit: Eliminating "Zero_Fallback" & Fractional Artifacts
 
-Anomalous Born Effective Charge is defined as $\Delta Z^* = Z^*_{\text{predicted}} - q_{\text{nominal}}$. Our automated chemical assignment audit revealed:
+Anomalous Born Effective Charge is defined as ($\Delta Z^* = Z^*_{\text{predicted}} - q_{\text{nominal}}$). Our automated chemical assignment audit revealed:
 
 | Dataset | Total Materials | Verified `BVAnalyzer` | `Composition_Guesses` | `Zero_Fallback` ($q_{\text{nom}} = 0$) | Genuine Anomalies (No Zero_Fallback) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
