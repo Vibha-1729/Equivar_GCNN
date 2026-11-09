@@ -70,7 +70,7 @@ def generate_strict_pure_compound_dataset_and_plot(
         cs = str(m.get("crystal_system", "Unknown")).capitalize()
         spg = m.get("space_group_number", m.get("space_group", None))
 
-        eg = m.get("band_gap", m.get("bandgap", m.get("band_gap_ind", None)))
+        eg = m.get("bandgap_eV", m.get("band_gap_eV", m.get("band_gap", m.get("bandgap", m.get("band_gap_ind", None)))))
         if filter_parent_eg_positive:
             agm_id = uid_map.get(mat_id)
             if not agm_id:
