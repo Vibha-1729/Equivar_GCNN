@@ -1,0 +1,11 @@
+material_id,formula,crystal_system,space_group,band_gap_eV,nominal_method,atom_nominal_oxidation_states,num_atoms,num_giant_anomalous_atoms,max_delta_z,is_giant_anomalous_material,source_dataset
+agm003161700,WN2,Hexagonal,187,1.6352,BVAnalyzer,W:+6; N:-3; N:-3,3,3,5.247,True,Alexandria
+agm005250270,WSe2,Hexagonal,187,1.6364,BVAnalyzer,Se:-2; Se:-2; W:+4,3,3,5.2087,True,Alexandria
+agm003160930,MoS2,Trigonal,160,1.5726,BVAnalyzer,Mo:+4; S:-2; S:-2,3,3,4.4118,True,Alexandria
+agm003160938,WS2,Trigonal,160,1.6573,BVAnalyzer,S:-2; S:-2; W:+4,3,3,4.3367,True,Alexandria
+agm003159285,IrSeCl,Trigonal,156,1.7118,BVAnalyzer,Ir:+3; Se:-2; Cl:-1,3,2,3.8756,True,Alexandria
+787ad35447,KAlSbH,Trigonal,156,1.6846,BVAnalyzer,K:+1; Al:+3; Sb:-3; H:-1,4,2,2.9957,True,GNoME
+30fc9a149c,RbAlSbH,Trigonal,156,1.547,BVAnalyzer,Rb:+1; Al:+3; Sb:-3; H:-1,4,2,2.952,True,GNoME
+7526b61a78,NaAlPH,Trigonal,156,2.2572,BVAnalyzer,Na:+1; Al:+3; P:-3; H:-1,4,2,2.4409,True,GNoME
+989fbdbb53,NaGaPH,Trigonal,156,1.9924,BVAnalyzer,Na:+1; Ga:+3; P:-3; H:-1,4,2,2.4354,True,GNoME
+0f330e1136,KFeCl2F,Tetragonal,123,3.5311,BVAnalyzer,K:+1; Fe:+2; Cl:-1; Cl:-1; F:-1,5,2,4.1509,True,GNoME

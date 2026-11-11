@@ -1,0 +1,8 @@
+Crystal System,Total Materials,Polar Materials,Non-Polar Materials,Polar %,Giant Anomalous Materials,Giant %,Giant in Polar,Giant in Non-Polar
+Cubic,11553,0,11553,0.0,3322,28.75,0,3322
+Tetragonal,22674,3641,19033,16.1,7285,32.13,1400,5885
+Orthorhombic,50416,17154,33262,34.0,19463,38.6,8569,10894
+Hexagonal,8302,1897,6405,22.8,4602,55.43,602,4000
+Trigonal,52803,14368,38435,27.2,15170,28.73,4279,10891
+Monoclinic,113379,38874,74505,34.3,38244,33.73,20917,17327
+Triclinic,41795,27525,14270,65.9,21456,51.34,15908,5548
